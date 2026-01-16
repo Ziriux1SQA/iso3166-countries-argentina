@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Mini project for ISO 3166-2 location tables with Argentina data",
   "main": "dist/index.js",
+  "author": "Marcos Wendy",
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",

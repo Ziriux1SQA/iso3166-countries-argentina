@@ -74,7 +74,7 @@ pnpm dev
 
 | Comando | Descripción |
 |---------|-------------|
-| `pnpm seed` | Descarga datos de Argentina y puebla la BD |
+| `pnpm seed` | Descarga datos de Argentina y hace el seed de los datos en la BD |
 | `pnpm dev` | Ejecuta ejemplos de consultas |
 | `pnpm build` | Compila TypeScript |
 | `pnpm start` | Ejecuta versión compilada |
@@ -195,7 +195,7 @@ src/
 ├── migrations/
 │   └── 1705000000000-CreateLocationTables.ts
 ├── scripts/
-│   └── seed-locations.ts   # Descarga y puebla datos
+│   └── seed-locations.ts   # Descarga y hace el seed de los datos
 └── index.ts                # Ejemplos de consultas
 ```
 
