@@ -70,6 +70,9 @@ classDiagram
 # Instalar dependencias con pnpm
 pnpm install
 
+# Descargar datos oficiales de datos.gob.ar (opcional si ya tienes los CSVs)
+pnpm data:download
+
 # Ejecutar migraciones y seed de datos de Argentina
 pnpm seed
 
@@ -81,7 +84,8 @@ pnpm dev
 
 | Comando | Descripción |
 |---------|-------------|
-| `pnpm seed` | Descarga datos de Argentina y hace el seed de los datos en la BD |
+| `pnpm data:download` | Descarga CSVs oficiales de datos.gob.ar |
+| `pnpm seed` | Carga datos desde CSVs locales a la BD |
 | `pnpm dev` | Ejecuta ejemplos de consultas |
 | `pnpm test` | Ejecuta tests de integración (23 tests) |
 | `pnpm test:watch` | Ejecuta tests en modo watch |
@@ -231,9 +235,14 @@ Tests       23 passed (23)
 ## 📁 Estructura del proyecto
 
 ```
+data/                           # Datos oficiales (descargados de datos.gob.ar)
+├── provincias.csv              # 24 provincias con códigos ISO 3166-2
+├── departamentos.csv           # ~530 departamentos/partidos/comunas
+├── localidades.csv             # ~4000 localidades con coordenadas
+└── amba-partidos.json          # Configuración de partidos del AMBA
 src/
 ├── config/
-│   └── data-source.ts      # Configuración TypeORM
+│   └── data-source.ts          # Configuración TypeORM
 ├── entities/
 │   ├── country.entity.ts
 │   ├── country-subdivision.entity.ts
@@ -241,11 +250,41 @@ src/
 ├── migrations/
 │   └── 1705000000000-CreateLocationTables.ts
 ├── scripts/
-│   └── seed-locations.ts   # Descarga y hace el seed de los datos
+│   ├── download-data.ts        # Descarga CSVs de datos.gob.ar
+│   ├── seed-locations.ts       # Entry point del seed
+│   └── seed/                   # Módulo de seed modular
+│       ├── index.ts            # Script principal
+│       ├── types.ts            # Interfaces TypeScript
+│       ├── config.ts           # Configuración y paths
+│       ├── data-loader.ts      # Lectura de CSVs y JSON
+│       ├── normalizers.ts      # Normalización de datos
+│       └── seeders.ts          # Funciones de seed por entidad
 ├── tests/
 │   └── location.integration.test.ts  # 23 tests de integración
-└── index.ts                # Ejemplos de consultas
+└── index.ts                    # Ejemplos de consultas
 ```
+
+### Campos disponibles en los CSVs
+
+Los archivos CSV de datos.gob.ar contienen información muy rica:
+
+**provincias.csv:**
+- `categoria` (Provincia, Ciudad Autónoma)
+- `centroide_lat`, `centroide_lon` (coordenadas)
+- `iso_id` (AR-B, AR-C, etc.)
+- `nombre`, `nombre_completo`
+
+**departamentos.csv:**
+- `categoria` (Partido, Departamento, Comuna)
+- `centroide_lat`, `centroide_lon` (coordenadas)
+- `provincia_id`, `provincia_nombre`
+- `nombre`, `nombre_completo`
+
+**localidades.csv:**
+- `categoria` (Localidad simple, Entidad, Componente)
+- `centroide_lat`, `centroide_lon` (coordenadas)
+- `municipio_id`, `municipio_nombre`
+- `departamento_id`, `departamento_nombre`
 
 ## 📄 Licencia
 

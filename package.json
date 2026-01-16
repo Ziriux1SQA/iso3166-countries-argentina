@@ -8,6 +8,7 @@
     "build": "tsc",
     "start": "node dist/index.js",
     "dev": "ts-node src/index.ts",
+    "data:download": "ts-node src/scripts/download-data.ts",
     "seed": "ts-node src/scripts/seed-locations.ts",
     "test": "vitest run",
     "test:watch": "vitest",
