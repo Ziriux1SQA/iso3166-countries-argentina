@@ -15,19 +15,19 @@ import { CountrySubdivisionEntity } from "./country-subdivision.entity";
  */
 @Entity("localities")
 export class LocalityEntity {
-  @PrimaryGeneratedColumn()
+  @PrimaryGeneratedColumn({ type: "integer" })
   id!: number;
 
-  @Column()
+  @Column({ type: "integer" })
   subdivisionId!: number;
 
-  @Column()
+  @Column({ type: "varchar" })
   name!: string; // "Lomas de Zamora", "Palermo", "Banfield"
 
-  @Column()
+  @Column({ type: "varchar" })
   type!: string; // "city", "neighborhood", "town", "village"
 
-  @Column({ nullable: true })
+  @Column({ type: "varchar", nullable: true })
   censusCode?: string; // Código INDEC de localidad censal
 
   // Relations

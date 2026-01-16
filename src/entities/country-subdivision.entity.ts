@@ -18,25 +18,25 @@ import { LocalityEntity } from "./locality.entity";
  */
 @Entity("country_subdivisions")
 export class CountrySubdivisionEntity {
-  @PrimaryGeneratedColumn()
+  @PrimaryGeneratedColumn({ type: "integer" })
   id!: number;
 
-  @Column()
+  @Column({ type: "integer" })
   countryId!: number;
 
-  @Column({ nullable: true })
+  @Column({ type: "integer", nullable: true })
   parentSubdivisionId?: number;
 
-  @Column({ unique: true })
+  @Column({ type: "varchar", unique: true })
   code!: string; // ISO 3166-2: "AR-B", "AR-C", "US-CA"
 
-  @Column()
+  @Column({ type: "varchar" })
   name!: string; // "Buenos Aires", "CABA", "California"
 
-  @Column()
+  @Column({ type: "varchar" })
   type!: string; // "province", "autonomous_city", "partido", "state", "department"
 
-  @Column({ default: false })
+  @Column({ type: "boolean", default: false })
   isAmbaParty!: boolean; // TRUE for CABA + 40 AMBA partidos
 
   // Relations

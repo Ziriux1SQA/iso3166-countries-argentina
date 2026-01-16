@@ -14,13 +14,13 @@ import { CountrySubdivisionEntity } from "./country-subdivision.entity";
  */
 @Entity("countries")
 export class CountryEntity {
-  @PrimaryGeneratedColumn()
+  @PrimaryGeneratedColumn({ type: "integer" })
   id!: number;
 
-  @Column({ unique: true, length: 2 })
+  @Column({ type: "varchar", unique: true, length: 2 })
   code!: string; // ISO 3166-1 alpha-2: "AR", "US"
 
-  @Column()
+  @Column({ type: "varchar" })
   name!: string; // "Argentina", "United States"
 
   @OneToMany(() => CountrySubdivisionEntity, (subdivision) => subdivision.country)

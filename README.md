@@ -19,42 +19,49 @@ Este proyecto implementa un sistema de ubicaciones normalizado basado en el est�
 - ✅ Flag `isAmbaParty` para identificar los 40 partidos del AMBA + CABA
 - ✅ Datos descargados desde [datos.gob.ar](https://datos.gob.ar/) (INDEC)
 
-## 🗃️ Estructura de Tablas
+## 🗃️ Diagrama de Clases 
 
-```
-┌─────────────────┐
-│    countries    │
-├─────────────────┤
-│ id              │
-│ code (AR, US)   │
-│ name            │
-└────────┬────────┘
-         │
-         │ 1:N
-         ▼
-┌─────────────────────────┐
-│  country_subdivisions   │
-├─────────────────────────┤
-│ id                      │
-│ countryId (FK)          │
-│ parentSubdivisionId (FK)│  ◄── Self-reference para jerarquía
-│ code (AR-B, AR-C)       │
-│ name                    │
-│ type                    │
-│ isAmbaParty             │  ◄── TRUE para CABA + 40 partidos AMBA
-└────────┬────────────────┘
-         │
-         │ 1:N
-         ▼
-┌─────────────────┐
-│   localities    │
-├─────────────────┤
-│ id              │
-│ subdivisionId   │
-│ name            │
-│ type            │
-│ censusCode      │
-└─────────────────┘
+Diagrama En Linea: https://mermaid.live/edit#pako:eNqtVE2P2jAQ_SvWHNuAEkggRGolYPeA1Kqrol6qXIbYgFvHjmynKkX89zofSwPZ7i5Vc3DGb2beeN7EOUKmKIMEMoHG3HHcacxTSdyzVKW0-nAvLbcHkkKQAhkM3jvrjbNa77rcUP6DG65kG5gQ8wczF1T94BtYsz0XVDN5I-MHlaFwjjOPaADO2rM1a93-ZcvHxlM9b7m0hNMOYKzmckcq8fqoxLyL3qFlJNPMvejcXjvKgnYdp7-eqtfrswesgKxJXF3jBTodbYdv9a-ttag9FF10o5RgKAk383yDD6jt4T_KcTnRF0Uwz7f5qoYeJWHSlGZ5Kcyt7TSGVM65Vbp3y1brT2QcTCaDgKAo9jgYpam8_8byQqiEzD975Ms6hadJnroNZ74rnsHCq9alQztjemd1yarvA8n842LeK3R1m1JY8pIiZcYjG9SaK9Ot8oCC6Vx5ZIFyy5mgFR94sNOcQlKV8iB3EVhtoZ5kCnbP3EQgcSZF_b1KObmcAuVXpfLHNK3K3R6SLQrjdo3K7d_rHMIkZbqWBpI4qCkgOcJPSIIoHvr-ZBZF8SgOg8k49uAAyXgYuk00Hs18PwzHwWx68uBXXdUfzsIw9sNR4MfRNAqj6ek3oU2jfQ
+
+```mermaid
+classDiagram
+    CountryEntity "1" --> "*" CountrySubdivisionEntity : subdivisions
+    CountrySubdivisionEntity "1" --> "*" CountrySubdivisionEntity : children
+    CountrySubdivisionEntity "1" --> "*" LocalityEntity : localities
+    
+    class CountryEntity{
+        +int id
+        +string code
+        +string name
+        +Date createdAt
+        +Date updatedAt
+    }
+    
+    class CountrySubdivisionEntity{
+        +int id
+        +int countryId
+        +int parentSubdivisionId
+        +string code
+        +string name
+        +string type
+        +boolean isAmbaParty
+        +Date createdAt
+        +Date updatedAt
+    }
+    
+    class LocalityEntity{
+        +int id
+        +int subdivisionId
+        +string name
+        +string type
+        +string censusCode
+        +Date createdAt
+        +Date updatedAt
+    }
+
+    note for CountryEntity "ISO 3166-1 alpha-2\nEjemplo: AR, US"
+    note for CountrySubdivisionEntity "ISO 3166-2\nEjemplo: AR-B, AR-C\nisAmbaParty=true para AMBA"
+    note for LocalityEntity "Ciudades, barrios\nEjemplo: Palermo, Banfield"
 ```
 
 ## 🚀 Instalación
@@ -76,6 +83,8 @@ pnpm dev
 |---------|-------------|
 | `pnpm seed` | Descarga datos de Argentina y hace el seed de los datos en la BD |
 | `pnpm dev` | Ejecuta ejemplos de consultas |
+| `pnpm test` | Ejecuta tests de integración (23 tests) |
+| `pnpm test:watch` | Ejecuta tests en modo watch |
 | `pnpm build` | Compila TypeScript |
 | `pnpm start` | Ejecuta versión compilada |
 
@@ -182,6 +191,43 @@ const localities = await localityRepo.find({
 5. Submit:    { countryId: 1, subdivisionId: 102, localityId: 1020 }
 ```
 
+## 🧪 Testing
+
+El proyecto incluye **23 tests de integración** que verifican la base de datos real (sin mocks):
+
+```bash
+pnpm test
+```
+
+### Suites de tests
+
+| Suite | Tests | Descripción |
+|-------|-------|-------------|
+| Countries | 2 | Verifica que Argentina existe con código AR |
+| Provinces | 4 | Valida las 24 provincias con códigos ISO 3166-2 |
+| AMBA | 4 | Verifica partidos del AMBA (isAmbaParty) |
+| Partidos | 2 | Valida 135 partidos de Buenos Aires |
+| Localities | 3 | Verifica localidades (4000+) |
+| Hierarchical Queries | 2 | Navega País → Provincia → Partido → Localidad |
+| Search Queries | 3 | Búsquedas por tipo, AMBA, patrones |
+| Data Integrity | 3 | Valida foreign keys e integridad |
+
+### Ejemplo de output
+
+```
+✓ Countries (2)
+✓ Provinces (ISO 3166-2 subdivisions) (4)
+✓ AMBA (Área Metropolitana de Buenos Aires) (4)
+✓ Partidos of Buenos Aires Province (2)
+✓ Localities (3)
+✓ Hierarchical Queries (2)
+✓ Search Queries (3)
+✓ Data Integrity (3)
+
+Test Files  1 passed (1)
+Tests       23 passed (23)
+```
+
 ## 📁 Estructura del proyecto
 
 ```
@@ -196,6 +242,8 @@ src/
 │   └── 1705000000000-CreateLocationTables.ts
 ├── scripts/
 │   └── seed-locations.ts   # Descarga y hace el seed de los datos
+├── tests/
+│   └── location.integration.test.ts  # 23 tests de integración
 └── index.ts                # Ejemplos de consultas
 ```
 
