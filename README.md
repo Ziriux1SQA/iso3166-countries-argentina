@@ -64,6 +64,8 @@ classDiagram
     note for LocalityEntity "Ciudades, barrios\nEjemplo: Palermo, Banfield"
 ```
 
+[📊 Ver diagrama en Mermaid Live Editor](https://mermaid.live/edit#pako:eNqNkk1uwzAMhK9CaN0c4Au4QJIG7aJFu9DSJGZsKpGoH7cIcve6ttM0XRRezfDjkBzxLGpvUBRiDz5Sh7pChiNc7K5E-oBqb8nBEshhg0mP4AM4CpI2mMJpPgZC3kNrIRF0wfAefAePaLpnOAa_bXb4OaEb4JzRJ7xBS-8mHZ4CHZfwhh0dQ0Y6QHaTJ-N8kKMu4Qkawkx6v4cDpHD5B_8WDnBAk4APEE6JvoFxAOcIL57CcFKTJx3LvzCZAV4ShdNfuN0BHQy-hMQxBa_-QYYLhHTxC_6MWENqEd7hLy4_gBbIb1JIscRUW83RYE3bEI2hIJqglpJLEbOLJcpKRGp0I2I9sFHM6k)
+
 ## 🚀 Instalación
 
 ```bash
