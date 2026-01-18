@@ -54,15 +54,16 @@ export async function seedProvincias(
     const tipo = normalizarTipoSubdivision(prov.categoria);
     const codigoNormalizado = normalizarCodigoProvincia(prov.id);
     
-    // CABA es parte del AMBA a nivel provincial
-    const isAmbaParty = codigoNormalizado === SEED_CONFIG.cabaProvinciaId;
+    // CABA es parte del AMBA (área metropolitana)
+    const isMetro = codigoNormalizado === SEED_CONFIG.cabaProvinciaId;
     
     const subdivision = subdivisionRepo.create({
       countryId: country.id,
       code: prov.iso_id,
       name: prov.nombre,
       type: tipo,
-      isAmbaParty: isAmbaParty,
+      isMetropolitanArea: isMetro,
+      metropolitanAreaCode: isMetro ? "AMBA" : undefined,
     });
     
     const saved = await subdivisionRepo.save(subdivision);
@@ -110,8 +111,8 @@ export async function seedDepartamentos(
     }
     
     const tipo = normalizarTipoSubdivision(dept.categoria);
-    const isAmbaParty = ambaCodes.has(dept.id);
-    if (isAmbaParty) ambaCount++;
+    const isMetro = ambaCodes.has(dept.id);
+    if (isMetro) ambaCount++;
     
     const deptCode = generarCodigoDepartamento(parentProvince.code, dept.id);
     
@@ -121,7 +122,8 @@ export async function seedDepartamentos(
       code: deptCode,
       name: dept.nombre,
       type: tipo,
-      isAmbaParty: isAmbaParty,
+      isMetropolitanArea: isMetro,
+      metropolitanAreaCode: isMetro ? "AMBA" : undefined,
     });
     
     const saved = await subdivisionRepo.save(subdivision);
@@ -173,11 +175,17 @@ export async function seedLocalidades(
     const tipo = normalizarTipoLocalidad(loc.categoria);
     categoriaCount[loc.categoria] = (categoriaCount[loc.categoria] || 0) + 1;
     
+    // Parsear coordenadas del centroide
+    const latitude = loc.centroide_lat ? parseFloat(loc.centroide_lat) : undefined;
+    const longitude = loc.centroide_lon ? parseFloat(loc.centroide_lon) : undefined;
+    
     const locality = localityRepo.create({
       subdivisionId: parentDept.id,
       name: loc.nombre,
       type: tipo,
       censusCode: loc.id,
+      latitude: !isNaN(latitude as number) ? latitude : undefined,
+      longitude: !isNaN(longitude as number) ? longitude : undefined,
     });
     
     batch.push(locality);
@@ -223,8 +231,8 @@ export async function printFinalStats(
   const countryCount = await dataSource.getRepository(CountryEntity).count();
   const subdivisionCount = await dataSource.getRepository(CountrySubdivisionEntity).count();
   const localityCount = await dataSource.getRepository(LocalityEntity).count();
-  const ambaSubdivisionCount = await dataSource.getRepository(CountrySubdivisionEntity).count({
-    where: { isAmbaParty: true },
+  const metroSubdivisionCount = await dataSource.getRepository(CountrySubdivisionEntity).count({
+    where: { isMetropolitanArea: true },
   });
   
   console.log("\n📊 RESUMEN FINAL:");
@@ -233,5 +241,5 @@ export async function printFinalStats(
   console.log(`     - Provincias/Distritos: ${provinciaCount}`);
   console.log(`     - Departamentos/Partidos: ${departamentoCount}`);
   console.log(`   • Localidades: ${localityCount}`);
-  console.log(`   • Subdivisiones AMBA: ${ambaSubdivisionCount}`);
+  console.log(`   • Subdivisiones en Áreas Metropolitanas: ${metroSubdivisionCount}`);
 }

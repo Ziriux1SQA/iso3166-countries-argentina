@@ -85,7 +85,8 @@ describe("Provinces (ISO 3166-2 subdivisions)", () => {
     expect(caba).not.toBeNull();
     expect(caba?.name).toBe("Ciudad Autónoma de Buenos Aires");
     expect(caba?.type).toBe("autonomous_city");
-    expect(caba?.isAmbaParty).toBe(true); // CABA is part of AMBA
+    expect(caba?.isMetropolitanArea).toBe(true); // CABA is part of AMBA
+    expect(caba?.metropolitanAreaCode).toBe("AMBA");
   });
 
   it("should have all 24 ISO 3166-2 codes for Argentina", async () => {
@@ -125,12 +126,12 @@ describe("Provinces (ISO 3166-2 subdivisions)", () => {
   });
 });
 
-describe("AMBA (Área Metropolitana de Buenos Aires)", () => {
-  it("should have AMBA partidos marked with isAmbaParty = true", async () => {
+describe("Metropolitan Areas (AMBA for Argentina)", () => {
+  it("should have AMBA partidos marked with isMetropolitanArea = true", async () => {
     const subdivisionRepo = dataSource.getRepository(CountrySubdivisionEntity);
 
     const ambaPartidos = await subdivisionRepo.find({
-      where: { isAmbaParty: true },
+      where: { isMetropolitanArea: true },
     });
 
     // CABA + 40 partidos = 41 (may vary based on exact AMBA definition)
@@ -145,7 +146,8 @@ describe("AMBA (Área Metropolitana de Buenos Aires)", () => {
     });
 
     expect(lomasDeZamora).not.toBeNull();
-    expect(lomasDeZamora?.isAmbaParty).toBe(true);
+    expect(lomasDeZamora?.isMetropolitanArea).toBe(true);
+    expect(lomasDeZamora?.metropolitanAreaCode).toBe("AMBA");
     expect(lomasDeZamora?.type).toBe("partido");
   });
 
@@ -157,20 +159,20 @@ describe("AMBA (Área Metropolitana de Buenos Aires)", () => {
     });
 
     expect(laMatanza).not.toBeNull();
-    expect(laMatanza?.isAmbaParty).toBe(true);
+    expect(laMatanza?.isMetropolitanArea).toBe(true);
+    expect(laMatanza?.metropolitanAreaCode).toBe("AMBA");
   });
 
-  it("should NOT include non-AMBA partidos like Bahía Blanca", async () => {
+  it("should NOT include non-metropolitan partidos like Bahía Blanca", async () => {
     const subdivisionRepo = dataSource.getRepository(CountrySubdivisionEntity);
 
     const bahiaBlanca = await subdivisionRepo.findOne({
       where: { name: "Bahía Blanca" },
     });
 
-    // Note: Bahía Blanca might be incorrectly marked in some datasets
-    // This test verifies the data
+    // Note: Bahía Blanca should not be part of AMBA
     if (bahiaBlanca) {
-      console.log(`Bahía Blanca isAmbaParty: ${bahiaBlanca.isAmbaParty}`);
+      console.log(`Bahía Blanca isMetropolitanArea: ${bahiaBlanca.isMetropolitanArea}`);
     }
     expect(bahiaBlanca).not.toBeNull();
   });
@@ -305,17 +307,17 @@ describe("Hierarchical Queries", () => {
 });
 
 describe("Search Queries", () => {
-  it("should search AMBA partidos using isAmbaParty filter", async () => {
+  it("should search metropolitan area subdivisions using isMetropolitanArea filter", async () => {
     const subdivisionRepo = dataSource.getRepository(CountrySubdivisionEntity);
 
-    const ambaResults = await subdivisionRepo
+    const metroResults = await subdivisionRepo
       .createQueryBuilder("subdivision")
-      .where("subdivision.isAmbaParty = :isAmba", { isAmba: true })
+      .where("subdivision.isMetropolitanArea = :isMetro", { isMetro: true })
       .orderBy("subdivision.name", "ASC")
       .getMany();
 
-    expect(ambaResults.length).toBeGreaterThanOrEqual(40);
-    expect(ambaResults.every((s) => s.isAmbaParty === true)).toBe(true);
+    expect(metroResults.length).toBeGreaterThanOrEqual(40);
+    expect(metroResults.every((s) => s.isMetropolitanArea === true)).toBe(true);
   });
 
   it("should search by subdivision type", async () => {

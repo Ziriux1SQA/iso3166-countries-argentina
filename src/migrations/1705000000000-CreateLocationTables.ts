@@ -76,9 +76,14 @@ export class CreateLocationTables1705000000000 implements MigrationInterface {
             type: "varchar",
           },
           {
-            name: "isAmbaParty",
+            name: "isMetropolitanArea",
             type: "boolean",
             default: false,
+          },
+          {
+            name: "metropolitanAreaCode",
+            type: "varchar",
+            isNullable: true,
           },
           {
             name: "createdAt",
@@ -122,6 +127,20 @@ export class CreateLocationTables1705000000000 implements MigrationInterface {
           {
             name: "censusCode",
             type: "varchar",
+            isNullable: true,
+          },
+          {
+            name: "latitude",
+            type: "decimal",
+            precision: 10,
+            scale: 7,
+            isNullable: true,
+          },
+          {
+            name: "longitude",
+            type: "decimal",
+            precision: 10,
+            scale: 7,
             isNullable: true,
           },
           {

@@ -37,7 +37,10 @@ export class CountrySubdivisionEntity {
   type!: string; // "province", "autonomous_city", "partido", "state", "department"
 
   @Column({ type: "boolean", default: false })
-  isAmbaParty!: boolean; // TRUE for CABA + 40 AMBA partidos
+  isMetropolitanArea!: boolean; // TRUE if part of any metropolitan area
+
+  @Column({ type: "varchar", nullable: true })
+  metropolitanAreaCode?: string; // Metropolitan area code: "AMBA" (Argentina), "35620" (NY MSA), etc.
 
   // Relations
   @ManyToOne(() => CountryEntity, (country) => country.subdivisions)

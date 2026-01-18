@@ -28,7 +28,13 @@ export class LocalityEntity {
   type!: string; // "city", "neighborhood", "town", "village"
 
   @Column({ type: "varchar", nullable: true })
-  censusCode?: string; // Código INDEC de localidad censal
+  censusCode?: string; // Código oficial: INDEC (Argentina), FIPS/GNIS (USA)
+
+  @Column({ type: "decimal", precision: 10, scale: 7, nullable: true })
+  latitude?: number; // Centroide latitud
+
+  @Column({ type: "decimal", precision: 10, scale: 7, nullable: true })
+  longitude?: number; // Centroide longitud
 
   // Relations
   @ManyToOne(() => CountrySubdivisionEntity, (subdivision) => subdivision.localities)

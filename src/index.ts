@@ -37,17 +37,17 @@ async function main() {
     provinces.forEach((p) => console.log(`   ${p.code}: ${p.name} (${p.type})`));
     console.log("   ... and more");
     
-    // Example 3: Get AMBA partidos
+    // Example 3: Get AMBA partidos (Metropolitan Area)
     console.log("\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
-    console.log("📍 Example 3: List AMBA partidos (isAmbaParty = true)");
+    console.log("📍 Example 3: List Metropolitan Area subdivisions (AMBA)");
     console.log("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
     const ambaPartidos = await subdivisionRepo.find({
-      where: { isAmbaParty: true },
+      where: { isMetropolitanArea: true },
       order: { name: "ASC" },
       take: 10,
     });
-    console.log(`   Found ${await subdivisionRepo.count({ where: { isAmbaParty: true } })} AMBA partidos:`);
-    ambaPartidos.forEach((p) => console.log(`   • ${p.name} (${p.type})`));
+    console.log(`   Found ${await subdivisionRepo.count({ where: { isMetropolitanArea: true } })} subdivisions in metropolitan areas:`);
+    ambaPartidos.forEach((p) => console.log(`   • ${p.name} (${p.type}) - ${p.metropolitanAreaCode}`));
     console.log("   ... and more");
     
     // Example 4: Get partidos of Buenos Aires province
@@ -65,7 +65,7 @@ async function main() {
       });
       console.log(`   Province: ${buenosAires.name} (${buenosAires.code})`);
       console.log(`   Partidos (showing 10 of ${await subdivisionRepo.count({ where: { parentSubdivisionId: buenosAires.id } })}):`);
-      partidos.forEach((p) => console.log(`   • ${p.name}${p.isAmbaParty ? " 🏙️ AMBA" : ""}`));
+      partidos.forEach((p) => console.log(`   • ${p.name}${p.isMetropolitanArea ? ` 🏙️ ${p.metropolitanAreaCode}` : ""}`));
     }
     
     // Example 5: Get localities of a partido
@@ -81,27 +81,27 @@ async function main() {
         order: { name: "ASC" },
         take: 10,
       });
-      console.log(`   Partido: ${lomasDeZamora.name} (AMBA: ${lomasDeZamora.isAmbaParty})`);
+      console.log(`   Partido: ${lomasDeZamora.name} (Metro Area: ${lomasDeZamora.isMetropolitanArea ? lomasDeZamora.metropolitanAreaCode : "No"})`);
       console.log(`   Localities:`);
       localities.forEach((l) => console.log(`   • ${l.name} (${l.type})`));
     } else {
       console.log("   No data found. Run 'pnpm seed' first.");
     }
     
-    // Example 6: Search query simulation
+    // Example 6: Search query simulation - Find by metropolitan area
     console.log("\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
-    console.log("📍 Example 6: Search simulation - Find all in AMBA");
+    console.log("📍 Example 6: Search simulation - Find all in Metropolitan Areas");
     console.log("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
-    const ambaQuery = subdivisionRepo
+    const metroQuery = subdivisionRepo
       .createQueryBuilder("subdivision")
-      .where("subdivision.isAmbaParty = :isAmba", { isAmba: true })
+      .where("subdivision.isMetropolitanArea = :isMetro", { isMetro: true })
       .orderBy("subdivision.name", "ASC");
     
-    const [ambaResults, ambaTotal] = await ambaQuery.getManyAndCount();
-    console.log(`   Query: WHERE isAmbaParty = true`);
-    console.log(`   Results: ${ambaTotal} subdivisions in AMBA`);
+    const [metroResults, metroTotal] = await metroQuery.getManyAndCount();
+    console.log(`   Query: WHERE isMetropolitanArea = true`);
+    console.log(`   Results: ${metroTotal} subdivisions in metropolitan areas`);
     console.log(`   First 5:`);
-    ambaResults.slice(0, 5).forEach((s) => console.log(`   • ${s.name}`));
+    metroResults.slice(0, 5).forEach((s) => console.log(`   • ${s.name} (${s.metropolitanAreaCode})`));
     
     // Summary
     console.log("\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
@@ -110,12 +110,12 @@ async function main() {
     const countryCount = await countryRepo.count();
     const subdivisionCount = await subdivisionRepo.count();
     const localityCount = await localityRepo.count();
-    const ambaCount = await subdivisionRepo.count({ where: { isAmbaParty: true } });
+    const metroCount = await subdivisionRepo.count({ where: { isMetropolitanArea: true } });
     
     console.log(`   Countries: ${countryCount}`);
     console.log(`   Subdivisions: ${subdivisionCount}`);
     console.log(`   Localities: ${localityCount}`);
-    console.log(`   AMBA partidos: ${ambaCount}`);
+    console.log(`   Metropolitan Area subdivisions: ${metroCount}`);
     
   } catch (error) {
     console.error("❌ Error:", error);
