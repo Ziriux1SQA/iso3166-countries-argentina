@@ -16,8 +16,10 @@ Este proyecto implementa un sistema de ubicaciones normalizado basado en el est�
 
 - ✅ Códigos ISO 3166-2 oficiales para todas las provincias argentinas
 - ✅ Soporte para estructura jerárquica (Provincia → Partido → Localidad)
-- ✅ Flag `isAmbaParty` para identificar los 40 partidos del AMBA + CABA
+- ✅ Flag `isMetropolitanArea` para identificar áreas metropolitanas (AMBA, etc.)
+- ✅ Coordenadas lat/lon para todas las localidades
 - ✅ Datos descargados desde [datos.gob.ar](https://datos.gob.ar/) (INDEC)
+- ✅ **JSONs exportados accesibles via URL** para usar en otros proyectos
 
 ## 🗃️ Diagrama de Clases 
 
@@ -42,7 +44,8 @@ classDiagram
         +string code
         +string name
         +string type
-        +boolean isAmbaParty
+        +boolean isMetropolitanArea
+        +string metropolitanAreaCode
         +Date createdAt
         +Date updatedAt
     }
@@ -53,13 +56,15 @@ classDiagram
         +string name
         +string type
         +string censusCode
+        +number latitude
+        +number longitude
         +Date createdAt
         +Date updatedAt
     }
 
     note for CountryEntity "ISO 3166-1 alpha-2\nEjemplo: AR, US"
-    note for CountrySubdivisionEntity "ISO 3166-2\nEjemplo: AR-B, AR-C\nisAmbaParty=true para AMBA"
-    note for LocalityEntity "Ciudades, barrios\nEjemplo: Palermo, Banfield"
+    note for CountrySubdivisionEntity "ISO 3166-2\nEjemplo: AR-B, AR-C\nisMetropolitanArea=true para AMBA"
+    note for LocalityEntity "Ciudades, barrios con coordenadas\nEjemplo: Palermo (-34.57, -58.42)"
 ```
 
 [📊 Ver diagrama en Mermaid Live Editor](https://mermaid.live/edit#pako:eNqNkk1uwzAMhK9CaN0c4Au4QJIG7aJFu9DSJGZsKpGoH7cIcve6ttM0XRRezfDjkBzxLGpvUBRiDz5Sh7pChiNc7K5E-oBqb8nBEshhg0mP4AM4CpI2mMJpPgZC3kNrIRF0wfAefAePaLpnOAa_bXb4OaEb4JzRJ7xBS-8mHZ4CHZfwhh0dQ0Y6QHaTJ-N8kKMu4Qkawkx6v4cDpHD5B_8WDnBAk4APEE6JvoFxAOcIL57CcFKTJx3LvzCZAV4ShdNfuN0BHQy-hMQxBa_-QYYLhHTxC_6MWENqEd7hLy4_gBbIb1JIscRUW83RYE3bEI2hIJqglpJLEbOLJcpKRGp0I2I9sFHM6k)
@@ -70,7 +75,7 @@ classDiagram
 # Instalar dependencias con pnpm
 pnpm install
 
-# Descargar datos oficiales de datos.gob.ar (opcional si ya tienes los CSVs)
+# Descargar datos oficiales de datos.gob.ar (opcional si ya tenés los CSVs)
 pnpm data:download
 
 # Ejecutar migraciones y seed de datos de Argentina
@@ -86,6 +91,7 @@ pnpm dev
 |---------|-------------|
 | `pnpm data:download` | Descarga CSVs oficiales de datos.gob.ar |
 | `pnpm seed` | Carga datos desde CSVs locales a la BD |
+| `pnpm export` | **Exporta JSONs** para usar via URL |
 | `pnpm dev` | Ejecuta ejemplos de consultas |
 | `pnpm test` | Ejecuta tests de integración (23 tests) |
 | `pnpm test:watch` | Ejecuta tests en modo watch |
@@ -133,11 +139,65 @@ pnpm dev
 
 ### AMBA (Área Metropolitana de Buenos Aires)
 
-El campo `isAmbaParty` está marcado como `true` para:
+El campo `isMetropolitanArea` está marcado como `true` y `metropolitanAreaCode = "AMBA"` para:
 - CABA (Ciudad Autónoma de Buenos Aires)
 - 40 partidos del conurbano bonaerense
 
-## 💡 Ejemplos de uso
+## 🌐 Usar datos via URL
+Los datos están exportados como JSON y accesibles directamente via GitHub:
+
+### URLs de acceso directo
+
+| Archivo | Descripción | URL |
+|---------|-------------|-----|
+| `provincias.json` | 24 provincias con códigos ISO | [Descargar](https://raw.githubusercontent.com/MacroxW/iso3166-countries-argentina/main/exports/provincias.json) |
+| `departamentos.json` | 500+ departamentos/partidos | [Descargar](https://raw.githubusercontent.com/MacroxW/iso3166-countries-argentina/main/exports/departamentos.json) |
+| `localidades.json` | 4000+ localidades con lat/lon | [Descargar](https://raw.githubusercontent.com/MacroxW/iso3166-countries-argentina/main/exports/localidades.json) |
+| `amba.json` | Partidos del AMBA | [Descargar](https://raw.githubusercontent.com/MacroxW/iso3166-countries-argentina/main/exports/amba.json) |
+| `barrios-caba.json` | Barrios de CABA | [Descargar](https://raw.githubusercontent.com/MacroxW/iso3166-countries-argentina/main/exports/barrios-caba.json) |
+| `index.json` | Índice con todas las URLs | [Ver índice](https://raw.githubusercontent.com/MacroxW/iso3166-countries-argentina/main/exports/index.json) |
+
+### Ejemplo: Cargar datos en JavaScript
+
+```javascript
+// Cargar provincias
+const response = await fetch('https://raw.githubusercontent.com/MacroxW/iso3166-countries-argentina/main/exports/provincias.json');
+const provincias = await response.json();
+console.log(provincias); // [{ code: "AR-B", name: "Buenos Aires", ... }, ...]
+
+// Cargar localidades
+const locResponse = await fetch('https://raw.githubusercontent.com/MacroxW/iso3166-countries-argentina/main/exports/localidades.json');
+const localidades = await locResponse.json();
+const palermo = localidades.find(l => l.name === 'PALERMO');
+console.log(palermo); // { name: "PALERMO", latitude: -34.57, longitude: -58.42, ... }
+```
+
+### Ejemplo: Popular una base de datos SQL
+
+```sql
+-- Importar provincias en PostgreSQL
+CREATE TEMP TABLE provincias_json (data jsonb);
+COPY provincias_json FROM PROGRAM 'curl -s https://raw.githubusercontent.com/.../provincias.json';
+
+INSERT INTO provincias (code, name, type)
+SELECT 
+  elem->>'code',
+  elem->>'name', 
+  elem->>'type'
+FROM provincias_json, jsonb_array_elements(data) AS elem;
+```
+
+### Regenerar los exports
+
+```bash
+# Después de actualizar los datos, regenerar los JSONs
+pnpm export
+git add exports/
+git commit -m "Update exported data"
+git push
+```
+
+## 💡 Ejemplos de uso (TypeORM)
 
 ### Obtener todas las provincias
 
@@ -152,7 +212,7 @@ const provinces = await subdivisionRepo.find({
 
 ```typescript
 const ambaPartidos = await subdivisionRepo.find({
-  where: { isAmbaParty: true },
+  where: { isMetropolitanArea: true, metropolitanAreaCode: "AMBA" },
   order: { name: "ASC" },
 });
 ```
@@ -240,6 +300,13 @@ data/                           # Datos oficiales (descargados de datos.gob.ar)
 ├── departamentos.csv           # ~530 departamentos/partidos/comunas
 ├── localidades.csv             # ~4000 localidades con coordenadas
 └── amba-partidos.json          # Configuración de partidos del AMBA
+exports/                        # JSONs exportados (accesibles via GitHub URL)
+├── provincias.json             # Provincias con códigos ISO
+├── departamentos.json          # Departamentos/partidos
+├── localidades.json            # Localidades con lat/lon
+├── amba.json                   # Solo partidos del AMBA
+├── barrios-caba.json           # Barrios de CABA
+└── index.json                  # Índice con todas las URLs
 src/
 ├── config/
 │   └── data-source.ts          # Configuración TypeORM

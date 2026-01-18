@@ -1,0 +1,4290 @@
+[
+  {
+    "code": "AR-H-036",
+    "name": "12 de Octubre",
+    "type": "department",
+    "provinceCode": "AR-H",
+    "provinceName": "Chaco",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-H-126",
+    "name": "1° de Mayo",
+    "type": "department",
+    "provinceCode": "AR-H",
+    "provinceName": "Chaco",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-H-039",
+    "name": "2 de Abril",
+    "type": "department",
+    "provinceCode": "AR-H",
+    "provinceName": "Chaco",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-854",
+    "name": "25 de Mayo",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-J-126",
+    "name": "25 de Mayo",
+    "type": "department",
+    "provinceCode": "AR-J",
+    "provinceName": "San Juan",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-H-168",
+    "name": "25 de Mayo",
+    "type": "department",
+    "provinceCode": "AR-H",
+    "provinceName": "Chaco",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-R-091",
+    "name": "25 de Mayo",
+    "type": "department",
+    "provinceCode": "AR-R",
+    "provinceName": "Río Negro",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-N-119",
+    "name": "25 de Mayo",
+    "type": "department",
+    "provinceCode": "AR-N",
+    "provinceName": "Misiones",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-S-077",
+    "name": "9 de Julio",
+    "type": "department",
+    "provinceCode": "AR-S",
+    "provinceName": "Santa Fe",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-H-105",
+    "name": "9 de Julio",
+    "type": "department",
+    "provinceCode": "AR-H",
+    "provinceName": "Chaco",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-588",
+    "name": "9 de Julio",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-J-063",
+    "name": "9 de Julio",
+    "type": "department",
+    "provinceCode": "AR-J",
+    "provinceName": "San Juan",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-R-049",
+    "name": "9 de julio",
+    "type": "department",
+    "provinceCode": "AR-R",
+    "provinceName": "Río Negro",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-007",
+    "name": "Adolfo Alsina",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-R-007",
+    "name": "Adolfo Alsina",
+    "type": "department",
+    "provinceCode": "AR-R",
+    "provinceName": "Río Negro",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-014",
+    "name": "Adolfo Gonzales Chaves",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-G-007",
+    "name": "Aguirre",
+    "type": "department",
+    "provinceCode": "AR-G",
+    "provinceName": "Santiago del Estero",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-J-007",
+    "name": "Albardón",
+    "type": "department",
+    "provinceCode": "AR-J",
+    "provinceName": "San Juan",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-G-014",
+    "name": "Alberdi",
+    "type": "department",
+    "provinceCode": "AR-G",
+    "provinceName": "Santiago del Estero",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-021",
+    "name": "Alberti",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-028",
+    "name": "Almirante Brown",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-H-007",
+    "name": "Almirante Brown",
+    "type": "department",
+    "provinceCode": "AR-H",
+    "provinceName": "Chaco",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Q-007",
+    "name": "Aluminé",
+    "type": "department",
+    "provinceCode": "AR-Q",
+    "provinceName": "Neuquén",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-K-007",
+    "name": "Ambato",
+    "type": "department",
+    "provinceCode": "AR-K",
+    "provinceName": "Catamarca",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-K-014",
+    "name": "Ancasti",
+    "type": "department",
+    "provinceCode": "AR-K",
+    "provinceName": "Catamarca",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-K-021",
+    "name": "Andalgalá",
+    "type": "department",
+    "provinceCode": "AR-K",
+    "provinceName": "Catamarca",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-J-014",
+    "name": "Angaco",
+    "type": "department",
+    "provinceCode": "AR-J",
+    "provinceName": "San Juan",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-A-007",
+    "name": "Anta",
+    "type": "department",
+    "provinceCode": "AR-A",
+    "provinceName": "Salta",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-K-028",
+    "name": "Antofagasta de la Sierra",
+    "type": "department",
+    "provinceCode": "AR-K",
+    "provinceName": "Catamarca",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-V-028",
+    "name": "Antártida Argentina",
+    "type": "department",
+    "provinceCode": "AR-V",
+    "provinceName": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-N-007",
+    "name": "Apóstoles",
+    "type": "department",
+    "provinceCode": "AR-N",
+    "provinceName": "Misiones",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-F-007",
+    "name": "Arauco",
+    "type": "department",
+    "provinceCode": "AR-F",
+    "provinceName": "La Rioja",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-077",
+    "name": "Arrecifes",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-G-021",
+    "name": "Atamisqui",
+    "type": "department",
+    "provinceCode": "AR-G",
+    "provinceName": "Santiago del Estero",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-L-007",
+    "name": "Atreucó",
+    "type": "department",
+    "provinceCode": "AR-L",
+    "provinceName": "La Pampa",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-R-014",
+    "name": "Avellaneda",
+    "type": "department",
+    "provinceCode": "AR-R",
+    "provinceName": "Río Negro",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-035",
+    "name": "Avellaneda",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-G-028",
+    "name": "Avellaneda",
+    "type": "department",
+    "provinceCode": "AR-G",
+    "provinceName": "Santiago del Estero",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-D-007",
+    "name": "Ayacucho",
+    "type": "department",
+    "provinceCode": "AR-D",
+    "provinceName": "San Luis",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-042",
+    "name": "Ayacucho",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-049",
+    "name": "Azul",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Q-014",
+    "name": "Añelo",
+    "type": "department",
+    "provinceCode": "AR-Q",
+    "provinceName": "Neuquén",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-056",
+    "name": "Bahía Blanca",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-B-063",
+    "name": "Balcarce",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-G-035",
+    "name": "Banda",
+    "type": "department",
+    "provinceCode": "AR-G",
+    "provinceName": "Santiago del Estero",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-070",
+    "name": "Baradero",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-R-021",
+    "name": "Bariloche",
+    "type": "department",
+    "provinceCode": "AR-R",
+    "provinceName": "Río Negro",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-D-014",
+    "name": "Belgrano",
+    "type": "department",
+    "provinceCode": "AR-D",
+    "provinceName": "San Luis",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-G-042",
+    "name": "Belgrano",
+    "type": "department",
+    "provinceCode": "AR-G",
+    "provinceName": "Santiago del Estero",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-S-007",
+    "name": "Belgrano",
+    "type": "department",
+    "provinceCode": "AR-S",
+    "provinceName": "Santa Fe",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-W-007",
+    "name": "Bella Vista",
+    "type": "department",
+    "provinceCode": "AR-W",
+    "provinceName": "Corrientes",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-K-035",
+    "name": "Belén",
+    "type": "department",
+    "provinceCode": "AR-K",
+    "provinceName": "Catamarca",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-084",
+    "name": "Benito Juárez",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-091",
+    "name": "Berazategui",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-B-098",
+    "name": "Berisso",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-H-014",
+    "name": "Bermejo",
+    "type": "department",
+    "provinceCode": "AR-H",
+    "provinceName": "Chaco",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-P-007",
+    "name": "Bermejo",
+    "type": "department",
+    "provinceCode": "AR-P",
+    "provinceName": "Formosa",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-W-014",
+    "name": "Berón de Astrada",
+    "type": "department",
+    "provinceCode": "AR-W",
+    "provinceName": "Corrientes",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-U-007",
+    "name": "Biedma",
+    "type": "department",
+    "provinceCode": "AR-U",
+    "provinceName": "Chubut",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-105",
+    "name": "Bolívar",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-112",
+    "name": "Bragado",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-119",
+    "name": "Brandsen",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-T-007",
+    "name": "Burruyacú",
+    "type": "department",
+    "provinceCode": "AR-T",
+    "provinceName": "Tucumán",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-A-014",
+    "name": "Cachi",
+    "type": "department",
+    "provinceCode": "AR-A",
+    "provinceName": "Salta",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-A-021",
+    "name": "Cafayate",
+    "type": "department",
+    "provinceCode": "AR-A",
+    "provinceName": "Salta",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-N-014",
+    "name": "Cainguás",
+    "type": "department",
+    "provinceCode": "AR-N",
+    "provinceName": "Misiones",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-X-007",
+    "name": "Calamuchita",
+    "type": "department",
+    "provinceCode": "AR-X",
+    "provinceName": "Córdoba",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-L-014",
+    "name": "Caleu Caleu",
+    "type": "department",
+    "provinceCode": "AR-L",
+    "provinceName": "La Pampa",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-J-021",
+    "name": "Calingasta",
+    "type": "department",
+    "provinceCode": "AR-J",
+    "provinceName": "San Juan",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-126",
+    "name": "Campana",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-N-021",
+    "name": "Candelaria",
+    "type": "department",
+    "provinceCode": "AR-N",
+    "provinceName": "Misiones",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-K-042",
+    "name": "Capayán",
+    "type": "department",
+    "provinceCode": "AR-K",
+    "provinceName": "Catamarca",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-L-021",
+    "name": "Capital",
+    "type": "department",
+    "provinceCode": "AR-L",
+    "provinceName": "La Pampa",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-W-021",
+    "name": "Capital",
+    "type": "department",
+    "provinceCode": "AR-W",
+    "provinceName": "Corrientes",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-N-028",
+    "name": "Capital",
+    "type": "department",
+    "provinceCode": "AR-N",
+    "provinceName": "Misiones",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-F-014",
+    "name": "Capital",
+    "type": "department",
+    "provinceCode": "AR-F",
+    "provinceName": "La Rioja",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-K-049",
+    "name": "Capital",
+    "type": "department",
+    "provinceCode": "AR-K",
+    "provinceName": "Catamarca",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-X-014",
+    "name": "Capital",
+    "type": "department",
+    "provinceCode": "AR-X",
+    "provinceName": "Córdoba",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-G-049",
+    "name": "Capital",
+    "type": "department",
+    "provinceCode": "AR-G",
+    "provinceName": "Santiago del Estero",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-A-028",
+    "name": "Capital",
+    "type": "department",
+    "provinceCode": "AR-A",
+    "provinceName": "Salta",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-M-007",
+    "name": "Capital",
+    "type": "department",
+    "provinceCode": "AR-M",
+    "provinceName": "Mendoza",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-T-084",
+    "name": "Capital",
+    "type": "department",
+    "provinceCode": "AR-T",
+    "provinceName": "Tucumán",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-J-028",
+    "name": "Capital",
+    "type": "department",
+    "provinceCode": "AR-J",
+    "provinceName": "San Juan",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-140",
+    "name": "Capitán Sarmiento",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-147",
+    "name": "Carlos Casares",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-154",
+    "name": "Carlos Tejedor",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-161",
+    "name": "Carmen de Areco",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-S-014",
+    "name": "Caseros",
+    "type": "department",
+    "provinceCode": "AR-S",
+    "provinceName": "Santa Fe",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-S-021",
+    "name": "Castellanos",
+    "type": "department",
+    "provinceCode": "AR-S",
+    "provinceName": "Santa Fe",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-168",
+    "name": "Castelli",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-F-021",
+    "name": "Castro Barros",
+    "type": "department",
+    "provinceCode": "AR-F",
+    "provinceName": "La Rioja",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-L-028",
+    "name": "Catriló",
+    "type": "department",
+    "provinceCode": "AR-L",
+    "provinceName": "La Pampa",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Q-021",
+    "name": "Catán Lil",
+    "type": "department",
+    "provinceCode": "AR-Q",
+    "provinceName": "Neuquén",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-J-035",
+    "name": "Caucete",
+    "type": "department",
+    "provinceCode": "AR-J",
+    "provinceName": "San Juan",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-134",
+    "name": "Cañuelas",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-A-035",
+    "name": "Cerrillos",
+    "type": "department",
+    "provinceCode": "AR-A",
+    "provinceName": "Salta",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-210",
+    "name": "Chacabuco",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-H-028",
+    "name": "Chacabuco",
+    "type": "department",
+    "provinceCode": "AR-H",
+    "provinceName": "Chaco",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-D-028",
+    "name": "Chacabuco",
+    "type": "department",
+    "provinceCode": "AR-D",
+    "provinceName": "San Luis",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-L-049",
+    "name": "Chalileo",
+    "type": "department",
+    "provinceCode": "AR-L",
+    "provinceName": "La Pampa",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-F-035",
+    "name": "Chamical",
+    "type": "department",
+    "provinceCode": "AR-F",
+    "provinceName": "La Rioja",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-L-056",
+    "name": "Chapaleufú",
+    "type": "department",
+    "provinceCode": "AR-L",
+    "provinceName": "La Pampa",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-217",
+    "name": "Chascomús",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-L-063",
+    "name": "Chical Co",
+    "type": "department",
+    "provinceCode": "AR-L",
+    "provinceName": "La Pampa",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-T-021",
+    "name": "Chicligasta",
+    "type": "department",
+    "provinceCode": "AR-T",
+    "provinceName": "Tucumán",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-A-042",
+    "name": "Chicoana",
+    "type": "department",
+    "provinceCode": "AR-A",
+    "provinceName": "Salta",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-F-042",
+    "name": "Chilecito",
+    "type": "department",
+    "provinceCode": "AR-F",
+    "provinceName": "La Rioja",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-J-042",
+    "name": "Chimbas",
+    "type": "department",
+    "provinceCode": "AR-J",
+    "provinceName": "San Juan",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-224",
+    "name": "Chivilcoy",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Q-042",
+    "name": "Chos Malal",
+    "type": "department",
+    "provinceCode": "AR-Q",
+    "provinceName": "Neuquén",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-G-063",
+    "name": "Choya",
+    "type": "department",
+    "provinceCode": "AR-G",
+    "provinceName": "Santiago del Estero",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-371",
+    "name": "Ciudad Libertador San Martín",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-Y-007",
+    "name": "Cochinoca",
+    "type": "department",
+    "provinceCode": "AR-Y",
+    "provinceName": "Jujuy",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Q-028",
+    "name": "Collón Curá",
+    "type": "department",
+    "provinceCode": "AR-Q",
+    "provinceName": "Neuquén",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-175",
+    "name": "Colón",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-E-008",
+    "name": "Colón",
+    "type": "department",
+    "provinceCode": "AR-E",
+    "provinceName": "Entre Ríos",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-X-021",
+    "name": "Colón",
+    "type": "department",
+    "provinceCode": "AR-X",
+    "provinceName": "Córdoba",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-H-021",
+    "name": "Comandante Fernández",
+    "type": "department",
+    "provinceCode": "AR-H",
+    "provinceName": "Chaco",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-C-007",
+    "name": "Comuna 1",
+    "type": "comuna",
+    "provinceCode": "AR-C",
+    "provinceName": "Ciudad Autónoma de Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-C-070",
+    "name": "Comuna 10",
+    "type": "comuna",
+    "provinceCode": "AR-C",
+    "provinceName": "Ciudad Autónoma de Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-C-077",
+    "name": "Comuna 11",
+    "type": "comuna",
+    "provinceCode": "AR-C",
+    "provinceName": "Ciudad Autónoma de Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-C-084",
+    "name": "Comuna 12",
+    "type": "comuna",
+    "provinceCode": "AR-C",
+    "provinceName": "Ciudad Autónoma de Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-C-091",
+    "name": "Comuna 13",
+    "type": "comuna",
+    "provinceCode": "AR-C",
+    "provinceName": "Ciudad Autónoma de Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-C-098",
+    "name": "Comuna 14",
+    "type": "comuna",
+    "provinceCode": "AR-C",
+    "provinceName": "Ciudad Autónoma de Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-C-105",
+    "name": "Comuna 15",
+    "type": "comuna",
+    "provinceCode": "AR-C",
+    "provinceName": "Ciudad Autónoma de Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-C-014",
+    "name": "Comuna 2",
+    "type": "comuna",
+    "provinceCode": "AR-C",
+    "provinceName": "Ciudad Autónoma de Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-C-021",
+    "name": "Comuna 3",
+    "type": "comuna",
+    "provinceCode": "AR-C",
+    "provinceName": "Ciudad Autónoma de Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-C-028",
+    "name": "Comuna 4",
+    "type": "comuna",
+    "provinceCode": "AR-C",
+    "provinceName": "Ciudad Autónoma de Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-C-035",
+    "name": "Comuna 5",
+    "type": "comuna",
+    "provinceCode": "AR-C",
+    "provinceName": "Ciudad Autónoma de Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-C-042",
+    "name": "Comuna 6",
+    "type": "comuna",
+    "provinceCode": "AR-C",
+    "provinceName": "Ciudad Autónoma de Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-C-049",
+    "name": "Comuna 7",
+    "type": "comuna",
+    "provinceCode": "AR-C",
+    "provinceName": "Ciudad Autónoma de Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-C-056",
+    "name": "Comuna 8",
+    "type": "comuna",
+    "provinceCode": "AR-C",
+    "provinceName": "Ciudad Autónoma de Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-C-063",
+    "name": "Comuna 9",
+    "type": "comuna",
+    "provinceCode": "AR-C",
+    "provinceName": "Ciudad Autónoma de Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-N-035",
+    "name": "Concepción",
+    "type": "department",
+    "provinceCode": "AR-N",
+    "provinceName": "Misiones",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-W-028",
+    "name": "Concepción",
+    "type": "department",
+    "provinceCode": "AR-W",
+    "provinceName": "Corrientes",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-E-015",
+    "name": "Concordia",
+    "type": "department",
+    "provinceCode": "AR-E",
+    "provinceName": "Entre Ríos",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-R-028",
+    "name": "Conesa",
+    "type": "department",
+    "provinceCode": "AR-R",
+    "provinceName": "Río Negro",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Q-035",
+    "name": "Confluencia",
+    "type": "department",
+    "provinceCode": "AR-Q",
+    "provinceName": "Neuquén",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-L-035",
+    "name": "Conhelo",
+    "type": "department",
+    "provinceCode": "AR-L",
+    "provinceName": "La Pampa",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-G-056",
+    "name": "Copo",
+    "type": "department",
+    "provinceCode": "AR-G",
+    "provinceName": "Santiago del Estero",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-189",
+    "name": "Coronel Dorrego",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-F-028",
+    "name": "Coronel Felipe Varela",
+    "type": "department",
+    "provinceCode": "AR-F",
+    "provinceName": "La Rioja",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-196",
+    "name": "Coronel Pringles",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-D-021",
+    "name": "Coronel Pringles",
+    "type": "department",
+    "provinceCode": "AR-D",
+    "provinceName": "San Luis",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-203",
+    "name": "Coronel Suárez",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-182",
+    "name": "Coronel de Marina Leonardo Rosales",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Z-007",
+    "name": "Corpen Aike",
+    "type": "department",
+    "provinceCode": "AR-Z",
+    "provinceName": "Santa Cruz",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-T-014",
+    "name": "Cruz Alta",
+    "type": "department",
+    "provinceCode": "AR-T",
+    "provinceName": "Tucumán",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-X-028",
+    "name": "Cruz del Eje",
+    "type": "department",
+    "provinceCode": "AR-X",
+    "provinceName": "Córdoba",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-L-042",
+    "name": "Curacó",
+    "type": "department",
+    "provinceCode": "AR-L",
+    "provinceName": "La Pampa",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-W-035",
+    "name": "Curuzu Cuatia",
+    "type": "department",
+    "provinceCode": "AR-W",
+    "provinceName": "Corrientes",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-U-014",
+    "name": "Cushamen",
+    "type": "department",
+    "provinceCode": "AR-U",
+    "provinceName": "Chubut",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-231",
+    "name": "Daireaux",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Z-014",
+    "name": "Deseado",
+    "type": "department",
+    "provinceCode": "AR-Z",
+    "provinceName": "Santa Cruz",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-E-021",
+    "name": "Diamante",
+    "type": "department",
+    "provinceCode": "AR-E",
+    "provinceName": "Entre Ríos",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-238",
+    "name": "Dolores",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Y-021",
+    "name": "Dr. Manuel Belgrano",
+    "type": "department",
+    "provinceCode": "AR-Y",
+    "provinceName": "Jujuy",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-K-056",
+    "name": "El Alto",
+    "type": "department",
+    "provinceCode": "AR-K",
+    "provinceName": "Catamarca",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Y-014",
+    "name": "El Carmen",
+    "type": "department",
+    "provinceCode": "AR-Y",
+    "provinceName": "Jujuy",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-R-035",
+    "name": "El Cuy",
+    "type": "department",
+    "provinceCode": "AR-R",
+    "provinceName": "Río Negro",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-N-042",
+    "name": "Eldorado",
+    "type": "department",
+    "provinceCode": "AR-N",
+    "provinceName": "Misiones",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-W-042",
+    "name": "Empedrado",
+    "type": "department",
+    "provinceCode": "AR-W",
+    "provinceName": "Corrientes",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-245",
+    "name": "Ensenada",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-U-021",
+    "name": "Escalante",
+    "type": "department",
+    "provinceCode": "AR-U",
+    "provinceName": "Chubut",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-252",
+    "name": "Escobar",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-W-049",
+    "name": "Esquina",
+    "type": "department",
+    "provinceCode": "AR-W",
+    "provinceName": "Corrientes",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-260",
+    "name": "Esteban Echeverría",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-B-266",
+    "name": "Exaltación de la Cruz",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-T-028",
+    "name": "Famaillá",
+    "type": "department",
+    "provinceCode": "AR-T",
+    "provinceName": "Tucumán",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-F-049",
+    "name": "Famatina",
+    "type": "department",
+    "provinceCode": "AR-F",
+    "provinceName": "La Rioja",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-E-028",
+    "name": "Federación",
+    "type": "department",
+    "provinceCode": "AR-E",
+    "provinceName": "Entre Ríos",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-E-035",
+    "name": "Federal",
+    "type": "department",
+    "provinceCode": "AR-E",
+    "provinceName": "Entre Ríos",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-E-042",
+    "name": "Feliciano",
+    "type": "department",
+    "provinceCode": "AR-E",
+    "provinceName": "Entre Ríos",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-G-070",
+    "name": "Figueroa",
+    "type": "department",
+    "provinceCode": "AR-G",
+    "provinceName": "Santiago del Estero",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-274",
+    "name": "Florencio Varela",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-B-277",
+    "name": "Florentino Ameghino",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-U-028",
+    "name": "Florentino Ameghino",
+    "type": "department",
+    "provinceCode": "AR-U",
+    "provinceName": "Chubut",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-P-014",
+    "name": "Formosa",
+    "type": "department",
+    "provinceCode": "AR-P",
+    "provinceName": "Formosa",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-H-043",
+    "name": "Fray Justo Santa María de Oro",
+    "type": "department",
+    "provinceCode": "AR-H",
+    "provinceName": "Chaco",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-K-063",
+    "name": "Fray Mamerto Esquiú",
+    "type": "department",
+    "provinceCode": "AR-K",
+    "provinceName": "Catamarca",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-U-035",
+    "name": "Futaleufú",
+    "type": "department",
+    "provinceCode": "AR-U",
+    "provinceName": "Chubut",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-U-042",
+    "name": "Gaiman",
+    "type": "department",
+    "provinceCode": "AR-U",
+    "provinceName": "Chubut",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-S-035",
+    "name": "Garay",
+    "type": "department",
+    "provinceCode": "AR-S",
+    "provinceName": "Santa Fe",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-U-049",
+    "name": "Gastre",
+    "type": "department",
+    "provinceCode": "AR-U",
+    "provinceName": "Chubut",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-280",
+    "name": "General Alvarado",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-W-056",
+    "name": "General Alvear",
+    "type": "department",
+    "provinceCode": "AR-W",
+    "provinceName": "Corrientes",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-M-014",
+    "name": "General Alvear",
+    "type": "department",
+    "provinceCode": "AR-M",
+    "provinceName": "Mendoza",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-287",
+    "name": "General Alvear",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-294",
+    "name": "General Arenales",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-301",
+    "name": "General Belgrano",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-H-049",
+    "name": "General Belgrano",
+    "type": "department",
+    "provinceCode": "AR-H",
+    "provinceName": "Chaco",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-F-063",
+    "name": "General Belgrano",
+    "type": "department",
+    "provinceCode": "AR-F",
+    "provinceName": "La Rioja",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-H-056",
+    "name": "General Donovan",
+    "type": "department",
+    "provinceCode": "AR-H",
+    "provinceName": "Chaco",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-308",
+    "name": "General Guido",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-H-063",
+    "name": "General Güemes",
+    "type": "department",
+    "provinceCode": "AR-H",
+    "provinceName": "Chaco",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-A-049",
+    "name": "General Güemes",
+    "type": "department",
+    "provinceCode": "AR-A",
+    "provinceName": "Salta",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-A-056",
+    "name": "General José de San Martín",
+    "type": "department",
+    "provinceCode": "AR-A",
+    "provinceName": "Salta",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-F-070",
+    "name": "General Juan F. Quiroga",
+    "type": "department",
+    "provinceCode": "AR-F",
+    "provinceName": "La Rioja",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-315",
+    "name": "General Juan Madariaga",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-322",
+    "name": "General La Madrid",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-F-077",
+    "name": "General Lamadrid",
+    "type": "department",
+    "provinceCode": "AR-F",
+    "provinceName": "La Rioja",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-329",
+    "name": "General Las Heras",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-B-336",
+    "name": "General Lavalle",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-S-042",
+    "name": "General López",
+    "type": "department",
+    "provinceCode": "AR-S",
+    "provinceName": "Santa Fe",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-N-049",
+    "name": "General Manuel Belgrano",
+    "type": "department",
+    "provinceCode": "AR-N",
+    "provinceName": "Misiones",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-S-049",
+    "name": "General Obligado",
+    "type": "department",
+    "provinceCode": "AR-S",
+    "provinceName": "Santa Fe",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-F-084",
+    "name": "General Ocampo",
+    "type": "department",
+    "provinceCode": "AR-F",
+    "provinceName": "La Rioja",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-W-063",
+    "name": "General Paz",
+    "type": "department",
+    "provinceCode": "AR-W",
+    "provinceName": "Corrientes",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-343",
+    "name": "General Paz",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-D-035",
+    "name": "General Pedernera",
+    "type": "department",
+    "provinceCode": "AR-D",
+    "provinceName": "San Luis",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-351",
+    "name": "General Pinto",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-357",
+    "name": "General Pueyrredón",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-X-035",
+    "name": "General Roca",
+    "type": "department",
+    "provinceCode": "AR-X",
+    "provinceName": "Córdoba",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-R-042",
+    "name": "General Roca",
+    "type": "department",
+    "provinceCode": "AR-R",
+    "provinceName": "Río Negro",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-364",
+    "name": "General Rodríguez",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-F-091",
+    "name": "General San Martín",
+    "type": "department",
+    "provinceCode": "AR-F",
+    "provinceName": "La Rioja",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-X-042",
+    "name": "General San Martín",
+    "type": "department",
+    "provinceCode": "AR-X",
+    "provinceName": "Córdoba",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-G-077",
+    "name": "General Taboada",
+    "type": "department",
+    "provinceCode": "AR-G",
+    "provinceName": "Santiago del Estero",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-385",
+    "name": "General Viamonte",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-392",
+    "name": "General Villegas",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-F-056",
+    "name": "General Ángel V. Peñaloza",
+    "type": "department",
+    "provinceCode": "AR-F",
+    "provinceName": "La Rioja",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-D-042",
+    "name": "Gobernador Dupuy",
+    "type": "department",
+    "provinceCode": "AR-D",
+    "provinceName": "San Luis",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-M-021",
+    "name": "Godoy Cruz",
+    "type": "department",
+    "provinceCode": "AR-M",
+    "provinceName": "Mendoza",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-W-070",
+    "name": "Goya",
+    "type": "department",
+    "provinceCode": "AR-W",
+    "provinceName": "Corrientes",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-T-035",
+    "name": "Graneros",
+    "type": "department",
+    "provinceCode": "AR-T",
+    "provinceName": "Tucumán",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-A-063",
+    "name": "Guachipas",
+    "type": "department",
+    "provinceCode": "AR-A",
+    "provinceName": "Salta",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-E-049",
+    "name": "Gualeguay",
+    "type": "department",
+    "provinceCode": "AR-E",
+    "provinceName": "Entre Ríos",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-E-056",
+    "name": "Gualeguaychú",
+    "type": "department",
+    "provinceCode": "AR-E",
+    "provinceName": "Entre Ríos",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-399",
+    "name": "Guaminí",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-N-056",
+    "name": "Guaraní",
+    "type": "department",
+    "provinceCode": "AR-N",
+    "provinceName": "Misiones",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-G-084",
+    "name": "Guasayán",
+    "type": "department",
+    "provinceCode": "AR-G",
+    "provinceName": "Santiago del Estero",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-L-070",
+    "name": "Guatraché",
+    "type": "department",
+    "provinceCode": "AR-L",
+    "provinceName": "La Pampa",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-M-028",
+    "name": "Guaymallén",
+    "type": "department",
+    "provinceCode": "AR-M",
+    "provinceName": "Mendoza",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Z-021",
+    "name": "Güer Aike",
+    "type": "department",
+    "provinceCode": "AR-Z",
+    "provinceName": "Santa Cruz",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-406",
+    "name": "Hipólito Yrigoyen",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-L-077",
+    "name": "Hucal",
+    "type": "department",
+    "provinceCode": "AR-L",
+    "provinceName": "La Pampa",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Q-049",
+    "name": "Huiliches",
+    "type": "department",
+    "provinceCode": "AR-Q",
+    "provinceName": "Neuquén",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Y-028",
+    "name": "Humahuaca",
+    "type": "department",
+    "provinceCode": "AR-Y",
+    "provinceName": "Jujuy",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-408",
+    "name": "Hurlingham",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-J-049",
+    "name": "Iglesia",
+    "type": "department",
+    "provinceCode": "AR-J",
+    "provinceName": "San Juan",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-N-063",
+    "name": "Iguazú",
+    "type": "department",
+    "provinceCode": "AR-N",
+    "provinceName": "Misiones",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-H-070",
+    "name": "Independencia",
+    "type": "department",
+    "provinceCode": "AR-H",
+    "provinceName": "Chaco",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-F-105",
+    "name": "Independencia",
+    "type": "department",
+    "provinceCode": "AR-F",
+    "provinceName": "La Rioja",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-S-056",
+    "name": "Iriondo",
+    "type": "department",
+    "provinceCode": "AR-S",
+    "provinceName": "Santa Fe",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-A-070",
+    "name": "Iruya",
+    "type": "department",
+    "provinceCode": "AR-A",
+    "provinceName": "Salta",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-X-049",
+    "name": "Ischilín",
+    "type": "department",
+    "provinceCode": "AR-X",
+    "provinceName": "Córdoba",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-V-021",
+    "name": "Islas del Atlántico Sur",
+    "type": "department",
+    "provinceCode": "AR-V",
+    "provinceName": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-E-063",
+    "name": "Islas del Ibicuy",
+    "type": "department",
+    "provinceCode": "AR-E",
+    "provinceName": "Entre Ríos",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-W-077",
+    "name": "Itatí",
+    "type": "department",
+    "provinceCode": "AR-W",
+    "provinceName": "Corrientes",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-410",
+    "name": "Ituzaingó",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-W-084",
+    "name": "Ituzaingó",
+    "type": "department",
+    "provinceCode": "AR-W",
+    "provinceName": "Corrientes",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-G-091",
+    "name": "Jiménez",
+    "type": "department",
+    "provinceCode": "AR-G",
+    "provinceName": "Santiago del Estero",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-412",
+    "name": "José C. Paz",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-B-270",
+    "name": "José M. Ezeiza",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-T-042",
+    "name": "Juan Bautista Alberdi",
+    "type": "department",
+    "provinceCode": "AR-T",
+    "provinceName": "Tucumán",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-G-098",
+    "name": "Juan F. Ibarra",
+    "type": "department",
+    "provinceCode": "AR-G",
+    "provinceName": "Santiago del Estero",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-D-056",
+    "name": "Juan Martín de Pueyrredón",
+    "type": "department",
+    "provinceCode": "AR-D",
+    "provinceName": "San Luis",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-413",
+    "name": "Junín",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-M-035",
+    "name": "Junín",
+    "type": "department",
+    "provinceCode": "AR-M",
+    "provinceName": "Mendoza",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-D-049",
+    "name": "Junín",
+    "type": "department",
+    "provinceCode": "AR-D",
+    "provinceName": "San Luis",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-X-056",
+    "name": "Juárez Celman",
+    "type": "department",
+    "provinceCode": "AR-X",
+    "provinceName": "Córdoba",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-J-056",
+    "name": "Jáchal",
+    "type": "department",
+    "provinceCode": "AR-J",
+    "provinceName": "San Juan",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-A-077",
+    "name": "La Caldera",
+    "type": "department",
+    "provinceCode": "AR-A",
+    "provinceName": "Salta",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-A-084",
+    "name": "La Candelaria",
+    "type": "department",
+    "provinceCode": "AR-A",
+    "provinceName": "Salta",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-S-063",
+    "name": "La Capital",
+    "type": "department",
+    "provinceCode": "AR-S",
+    "provinceName": "Santa Fe",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-T-049",
+    "name": "La Cocha",
+    "type": "department",
+    "provinceCode": "AR-T",
+    "provinceName": "Tucumán",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-420",
+    "name": "La Costa",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-427",
+    "name": "La Matanza",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-M-042",
+    "name": "La Paz",
+    "type": "department",
+    "provinceCode": "AR-M",
+    "provinceName": "Mendoza",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-K-070",
+    "name": "La Paz",
+    "type": "department",
+    "provinceCode": "AR-K",
+    "provinceName": "Catamarca",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-E-070",
+    "name": "La Paz",
+    "type": "department",
+    "provinceCode": "AR-E",
+    "provinceName": "Entre Ríos",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-441",
+    "name": "La Plata",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-A-091",
+    "name": "La Poma",
+    "type": "department",
+    "provinceCode": "AR-A",
+    "provinceName": "Salta",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-A-098",
+    "name": "La Viña",
+    "type": "department",
+    "provinceCode": "AR-A",
+    "provinceName": "Salta",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Z-028",
+    "name": "Lago Argentino",
+    "type": "department",
+    "provinceCode": "AR-Z",
+    "provinceName": "Santa Cruz",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Z-035",
+    "name": "Lago Buenos Aires",
+    "type": "department",
+    "provinceCode": "AR-Z",
+    "provinceName": "Santa Cruz",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-P-021",
+    "name": "Laishí",
+    "type": "department",
+    "provinceCode": "AR-P",
+    "provinceName": "Formosa",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-U-056",
+    "name": "Languiñeo",
+    "type": "department",
+    "provinceCode": "AR-U",
+    "provinceName": "Chubut",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-434",
+    "name": "Lanús",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-B-448",
+    "name": "Laprida",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-S-070",
+    "name": "Las Colonias",
+    "type": "department",
+    "provinceCode": "AR-S",
+    "provinceName": "Santa Fe",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-455",
+    "name": "Las Flores",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-M-049",
+    "name": "Las Heras",
+    "type": "department",
+    "provinceCode": "AR-M",
+    "provinceName": "Mendoza",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-M-056",
+    "name": "Lavalle",
+    "type": "department",
+    "provinceCode": "AR-M",
+    "provinceName": "Mendoza",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-W-091",
+    "name": "Lavalle",
+    "type": "department",
+    "provinceCode": "AR-W",
+    "provinceName": "Corrientes",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-T-056",
+    "name": "Leales",
+    "type": "department",
+    "provinceCode": "AR-T",
+    "provinceName": "Tucumán",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-462",
+    "name": "Leandro N. Alem",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-N-070",
+    "name": "Leandro N. Alem",
+    "type": "department",
+    "provinceCode": "AR-N",
+    "provinceName": "Misiones",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Y-035",
+    "name": "Ledesma",
+    "type": "department",
+    "provinceCode": "AR-Y",
+    "provinceName": "Jujuy",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-466",
+    "name": "Lezama",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-H-077",
+    "name": "Libertad",
+    "type": "department",
+    "provinceCode": "AR-H",
+    "provinceName": "Chaco",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-H-084",
+    "name": "Libertador General San Martín",
+    "type": "department",
+    "provinceCode": "AR-H",
+    "provinceName": "Chaco",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-D-063",
+    "name": "Libertador General San Martín",
+    "type": "department",
+    "provinceCode": "AR-D",
+    "provinceName": "San Luis",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-N-077",
+    "name": "Libertador General San Martín",
+    "type": "department",
+    "provinceCode": "AR-N",
+    "provinceName": "Misiones",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-L-084",
+    "name": "Lihuel Calel",
+    "type": "department",
+    "provinceCode": "AR-L",
+    "provinceName": "La Pampa",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-L-091",
+    "name": "Limay Mahuida",
+    "type": "department",
+    "provinceCode": "AR-L",
+    "provinceName": "La Pampa",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-469",
+    "name": "Lincoln",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-476",
+    "name": "Lobería",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-483",
+    "name": "Lobos",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-490",
+    "name": "Lomas de Zamora",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-Q-063",
+    "name": "Loncopué",
+    "type": "department",
+    "provinceCode": "AR-Q",
+    "provinceName": "Neuquén",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-G-105",
+    "name": "Loreto",
+    "type": "department",
+    "provinceCode": "AR-G",
+    "provinceName": "Santiago del Estero",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-A-105",
+    "name": "Los Andes",
+    "type": "department",
+    "provinceCode": "AR-A",
+    "provinceName": "Salta",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Q-070",
+    "name": "Los Lagos",
+    "type": "department",
+    "provinceCode": "AR-Q",
+    "provinceName": "Neuquén",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-L-098",
+    "name": "Loventué",
+    "type": "department",
+    "provinceCode": "AR-L",
+    "provinceName": "La Pampa",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-497",
+    "name": "Luján",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-M-063",
+    "name": "Luján de Cuyo",
+    "type": "department",
+    "provinceCode": "AR-M",
+    "provinceName": "Mendoza",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-T-063",
+    "name": "Lules",
+    "type": "department",
+    "provinceCode": "AR-T",
+    "provinceName": "Tucumán",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Q-056",
+    "name": "Lácar",
+    "type": "department",
+    "provinceCode": "AR-Q",
+    "provinceName": "Neuquén",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Z-042",
+    "name": "Magallanes",
+    "type": "department",
+    "provinceCode": "AR-Z",
+    "provinceName": "Santa Cruz",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-505",
+    "name": "Magdalena",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-511",
+    "name": "Maipú",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-M-070",
+    "name": "Maipú",
+    "type": "department",
+    "provinceCode": "AR-M",
+    "provinceName": "Mendoza",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-H-091",
+    "name": "Maipú",
+    "type": "department",
+    "provinceCode": "AR-H",
+    "provinceName": "Chaco",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-M-077",
+    "name": "Malargüe",
+    "type": "department",
+    "provinceCode": "AR-M",
+    "provinceName": "Mendoza",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-515",
+    "name": "Malvinas Argentinas",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-B-518",
+    "name": "Mar Chiquita",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-L-105",
+    "name": "Maracó",
+    "type": "department",
+    "provinceCode": "AR-L",
+    "provinceName": "La Pampa",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-X-063",
+    "name": "Marcos Juárez",
+    "type": "department",
+    "provinceCode": "AR-X",
+    "provinceName": "Córdoba",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-525",
+    "name": "Marcos Paz",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-P-028",
+    "name": "Matacos",
+    "type": "department",
+    "provinceCode": "AR-P",
+    "provinceName": "Formosa",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-H-098",
+    "name": "Mayor Luis J. Fontana",
+    "type": "department",
+    "provinceCode": "AR-H",
+    "provinceName": "Chaco",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-W-098",
+    "name": "Mburucuyá",
+    "type": "department",
+    "provinceCode": "AR-W",
+    "provinceName": "Corrientes",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-W-105",
+    "name": "Mercedes",
+    "type": "department",
+    "provinceCode": "AR-W",
+    "provinceName": "Corrientes",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-532",
+    "name": "Mercedes",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-539",
+    "name": "Merlo",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-A-112",
+    "name": "Metán",
+    "type": "department",
+    "provinceCode": "AR-A",
+    "provinceName": "Salta",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Q-077",
+    "name": "Minas",
+    "type": "department",
+    "provinceCode": "AR-Q",
+    "provinceName": "Neuquén",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-X-070",
+    "name": "Minas",
+    "type": "department",
+    "provinceCode": "AR-X",
+    "provinceName": "Córdoba",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-G-112",
+    "name": "Mitre",
+    "type": "department",
+    "provinceCode": "AR-G",
+    "provinceName": "Santiago del Estero",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-A-119",
+    "name": "Molinos",
+    "type": "department",
+    "provinceCode": "AR-A",
+    "provinceName": "Salta",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-547",
+    "name": "Monte",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-W-112",
+    "name": "Monte Caseros",
+    "type": "department",
+    "provinceCode": "AR-W",
+    "provinceName": "Corrientes",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-553",
+    "name": "Monte Hermoso",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-N-084",
+    "name": "Montecarlo",
+    "type": "department",
+    "provinceCode": "AR-N",
+    "provinceName": "Misiones",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-T-070",
+    "name": "Monteros",
+    "type": "department",
+    "provinceCode": "AR-T",
+    "provinceName": "Tucumán",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-G-119",
+    "name": "Moreno",
+    "type": "department",
+    "provinceCode": "AR-G",
+    "provinceName": "Santiago del Estero",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-560",
+    "name": "Moreno",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-B-568",
+    "name": "Morón",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-U-063",
+    "name": "Mártires",
+    "type": "department",
+    "provinceCode": "AR-U",
+    "provinceName": "Chubut",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-574",
+    "name": "Navarro",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-581",
+    "name": "Necochea",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-E-077",
+    "name": "Nogoyá",
+    "type": "department",
+    "provinceCode": "AR-E",
+    "provinceName": "Entre Ríos",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-H-112",
+    "name": "O'Higgins",
+    "type": "department",
+    "provinceCode": "AR-H",
+    "provinceName": "Chaco",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-N-091",
+    "name": "Oberá",
+    "type": "department",
+    "provinceCode": "AR-N",
+    "provinceName": "Misiones",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-G-126",
+    "name": "Ojo de Agua",
+    "type": "department",
+    "provinceCode": "AR-G",
+    "provinceName": "Santiago del Estero",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-595",
+    "name": "Olavarría",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-A-126",
+    "name": "Orán",
+    "type": "department",
+    "provinceCode": "AR-A",
+    "provinceName": "Salta",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-K-077",
+    "name": "Paclín",
+    "type": "department",
+    "provinceCode": "AR-K",
+    "provinceName": "Catamarca",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Y-042",
+    "name": "Palpalá",
+    "type": "department",
+    "provinceCode": "AR-Y",
+    "provinceName": "Jujuy",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-E-084",
+    "name": "Paraná",
+    "type": "department",
+    "provinceCode": "AR-E",
+    "provinceName": "Entre Ríos",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-U-070",
+    "name": "Paso de Indios",
+    "type": "department",
+    "provinceCode": "AR-U",
+    "provinceName": "Chubut",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-W-119",
+    "name": "Paso de los Libres",
+    "type": "department",
+    "provinceCode": "AR-W",
+    "provinceName": "Corrientes",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-602",
+    "name": "Patagones",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-P-035",
+    "name": "Patiño",
+    "type": "department",
+    "provinceCode": "AR-P",
+    "provinceName": "Formosa",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-609",
+    "name": "Pehuajó",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Q-091",
+    "name": "Pehuenches",
+    "type": "department",
+    "provinceCode": "AR-Q",
+    "provinceName": "Neuquén",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-616",
+    "name": "Pellegrini",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-G-133",
+    "name": "Pellegrini",
+    "type": "department",
+    "provinceCode": "AR-G",
+    "provinceName": "Santiago del Estero",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-623",
+    "name": "Pergamino",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-R-063",
+    "name": "Pichi Mahuida",
+    "type": "department",
+    "provinceCode": "AR-R",
+    "provinceName": "Río Negro",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Q-105",
+    "name": "Picunches",
+    "type": "department",
+    "provinceCode": "AR-Q",
+    "provinceName": "Neuquén",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Q-098",
+    "name": "Picún Leufú",
+    "type": "department",
+    "provinceCode": "AR-Q",
+    "provinceName": "Neuquén",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-630",
+    "name": "Pila",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-P-042",
+    "name": "Pilagás",
+    "type": "department",
+    "provinceCode": "AR-P",
+    "provinceName": "Formosa",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-638",
+    "name": "Pilar",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-R-070",
+    "name": "Pilcaniyeu",
+    "type": "department",
+    "provinceCode": "AR-R",
+    "provinceName": "Río Negro",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-P-049",
+    "name": "Pilcomayo",
+    "type": "department",
+    "provinceCode": "AR-P",
+    "provinceName": "Formosa",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-644",
+    "name": "Pinamar",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-P-056",
+    "name": "Pirané",
+    "type": "department",
+    "provinceCode": "AR-P",
+    "provinceName": "Formosa",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-X-077",
+    "name": "Pocho",
+    "type": "department",
+    "provinceCode": "AR-X",
+    "provinceName": "Córdoba",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-J-070",
+    "name": "Pocito",
+    "type": "department",
+    "provinceCode": "AR-J",
+    "provinceName": "San Juan",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-K-084",
+    "name": "Pomán",
+    "type": "department",
+    "provinceCode": "AR-K",
+    "provinceName": "Catamarca",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-H-119",
+    "name": "Presidencia de la Plaza",
+    "type": "department",
+    "provinceCode": "AR-H",
+    "provinceName": "Chaco",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-648",
+    "name": "Presidente Perón",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-X-084",
+    "name": "Presidente Roque Sáenz Peña",
+    "type": "department",
+    "provinceCode": "AR-X",
+    "provinceName": "Córdoba",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-L-112",
+    "name": "Puelén",
+    "type": "department",
+    "provinceCode": "AR-L",
+    "provinceName": "La Pampa",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-X-091",
+    "name": "Punilla",
+    "type": "department",
+    "provinceCode": "AR-X",
+    "provinceName": "Córdoba",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-655",
+    "name": "Punta Indio",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-651",
+    "name": "Puán",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-G-140",
+    "name": "Quebrachos",
+    "type": "department",
+    "provinceCode": "AR-G",
+    "provinceName": "Santiago del Estero",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-L-119",
+    "name": "Quemú Quemú",
+    "type": "department",
+    "provinceCode": "AR-L",
+    "provinceName": "La Pampa",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-658",
+    "name": "Quilmes",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-H-133",
+    "name": "Quitilipi",
+    "type": "department",
+    "provinceCode": "AR-H",
+    "provinceName": "Chaco",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-665",
+    "name": "Ramallo",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-P-063",
+    "name": "Ramón Lista",
+    "type": "department",
+    "provinceCode": "AR-P",
+    "provinceName": "Formosa",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-L-126",
+    "name": "Rancul",
+    "type": "department",
+    "provinceCode": "AR-L",
+    "provinceName": "La Pampa",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-672",
+    "name": "Rauch",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-U-077",
+    "name": "Rawson",
+    "type": "department",
+    "provinceCode": "AR-U",
+    "provinceName": "Chubut",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-J-077",
+    "name": "Rawson",
+    "type": "department",
+    "provinceCode": "AR-J",
+    "provinceName": "San Juan",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-L-133",
+    "name": "Realicó",
+    "type": "department",
+    "provinceCode": "AR-L",
+    "provinceName": "La Pampa",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Y-049",
+    "name": "Rinconada",
+    "type": "department",
+    "provinceCode": "AR-Y",
+    "provinceName": "Jujuy",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-G-154",
+    "name": "Rivadavia",
+    "type": "department",
+    "provinceCode": "AR-G",
+    "provinceName": "Santiago del Estero",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-M-084",
+    "name": "Rivadavia",
+    "type": "department",
+    "provinceCode": "AR-M",
+    "provinceName": "Mendoza",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-A-133",
+    "name": "Rivadavia",
+    "type": "department",
+    "provinceCode": "AR-A",
+    "provinceName": "Salta",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-679",
+    "name": "Rivadavia",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-J-084",
+    "name": "Rivadavia",
+    "type": "department",
+    "provinceCode": "AR-J",
+    "provinceName": "San Juan",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-G-161",
+    "name": "Robles",
+    "type": "department",
+    "provinceCode": "AR-G",
+    "provinceName": "Santiago del Estero",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-686",
+    "name": "Rojas",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-693",
+    "name": "Roque Pérez",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-S-084",
+    "name": "Rosario",
+    "type": "department",
+    "provinceCode": "AR-S",
+    "provinceName": "Santa Fe",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-F-112",
+    "name": "Rosario Vera Peñaloza",
+    "type": "department",
+    "provinceCode": "AR-F",
+    "provinceName": "La Rioja",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-A-147",
+    "name": "Rosario de Lerma",
+    "type": "department",
+    "provinceCode": "AR-A",
+    "provinceName": "Salta",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-A-140",
+    "name": "Rosario de la Frontera",
+    "type": "department",
+    "provinceCode": "AR-A",
+    "provinceName": "Salta",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Z-049",
+    "name": "Río Chico",
+    "type": "department",
+    "provinceCode": "AR-Z",
+    "provinceName": "Santa Cruz",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-T-077",
+    "name": "Río Chico",
+    "type": "department",
+    "provinceCode": "AR-T",
+    "provinceName": "Tucumán",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-X-098",
+    "name": "Río Cuarto",
+    "type": "department",
+    "provinceCode": "AR-X",
+    "provinceName": "Córdoba",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-V-008",
+    "name": "Río Grande",
+    "type": "department",
+    "provinceCode": "AR-V",
+    "provinceName": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-G-147",
+    "name": "Río Hondo",
+    "type": "department",
+    "provinceCode": "AR-G",
+    "provinceName": "Santiago del Estero",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-X-105",
+    "name": "Río Primero",
+    "type": "department",
+    "provinceCode": "AR-X",
+    "provinceName": "Córdoba",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-X-112",
+    "name": "Río Seco",
+    "type": "department",
+    "provinceCode": "AR-X",
+    "provinceName": "Córdoba",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-X-119",
+    "name": "Río Segundo",
+    "type": "department",
+    "provinceCode": "AR-X",
+    "provinceName": "Córdoba",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-U-084",
+    "name": "Río Senguer",
+    "type": "department",
+    "provinceCode": "AR-U",
+    "provinceName": "Chubut",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-700",
+    "name": "Saavedra",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-W-126",
+    "name": "Saladas",
+    "type": "department",
+    "provinceCode": "AR-W",
+    "provinceName": "Corrientes",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-707",
+    "name": "Saladillo",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-G-168",
+    "name": "Salavina",
+    "type": "department",
+    "provinceCode": "AR-G",
+    "provinceName": "Santiago del Estero",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-721",
+    "name": "Salliqueló",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-714",
+    "name": "Salto",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-X-126",
+    "name": "San Alberto",
+    "type": "department",
+    "provinceCode": "AR-X",
+    "provinceName": "Córdoba",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-728",
+    "name": "San Andrés de Giles",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-R-077",
+    "name": "San Antonio",
+    "type": "department",
+    "provinceCode": "AR-R",
+    "provinceName": "Río Negro",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Y-056",
+    "name": "San Antonio",
+    "type": "department",
+    "provinceCode": "AR-Y",
+    "provinceName": "Jujuy",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-735",
+    "name": "San Antonio de Areco",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-F-119",
+    "name": "San Blas de Los Sauces",
+    "type": "department",
+    "provinceCode": "AR-F",
+    "provinceName": "La Rioja",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-M-091",
+    "name": "San Carlos",
+    "type": "department",
+    "provinceCode": "AR-M",
+    "provinceName": "Mendoza",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-A-154",
+    "name": "San Carlos",
+    "type": "department",
+    "provinceCode": "AR-A",
+    "provinceName": "Salta",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-742",
+    "name": "San Cayetano",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-W-133",
+    "name": "San Cosme",
+    "type": "department",
+    "provinceCode": "AR-W",
+    "provinceName": "Corrientes",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-S-091",
+    "name": "San Cristóbal",
+    "type": "department",
+    "provinceCode": "AR-S",
+    "provinceName": "Santa Fe",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-H-140",
+    "name": "San Fernando",
+    "type": "department",
+    "provinceCode": "AR-H",
+    "provinceName": "Chaco",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-749",
+    "name": "San Fernando",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-N-098",
+    "name": "San Ignacio",
+    "type": "department",
+    "provinceCode": "AR-N",
+    "provinceName": "Misiones",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-756",
+    "name": "San Isidro",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-X-133",
+    "name": "San Javier",
+    "type": "department",
+    "provinceCode": "AR-X",
+    "provinceName": "Córdoba",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-N-105",
+    "name": "San Javier",
+    "type": "department",
+    "provinceCode": "AR-N",
+    "provinceName": "Misiones",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-S-098",
+    "name": "San Javier",
+    "type": "department",
+    "provinceCode": "AR-S",
+    "provinceName": "Santa Fe",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-S-105",
+    "name": "San Jerónimo",
+    "type": "department",
+    "provinceCode": "AR-S",
+    "provinceName": "Santa Fe",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-X-140",
+    "name": "San Justo",
+    "type": "department",
+    "provinceCode": "AR-X",
+    "provinceName": "Córdoba",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-S-112",
+    "name": "San Justo",
+    "type": "department",
+    "provinceCode": "AR-S",
+    "provinceName": "Santa Fe",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-H-147",
+    "name": "San Lorenzo",
+    "type": "department",
+    "provinceCode": "AR-H",
+    "provinceName": "Chaco",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-S-119",
+    "name": "San Lorenzo",
+    "type": "department",
+    "provinceCode": "AR-S",
+    "provinceName": "Santa Fe",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-W-140",
+    "name": "San Luis del Palmar",
+    "type": "department",
+    "provinceCode": "AR-W",
+    "provinceName": "Corrientes",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-W-147",
+    "name": "San Martín",
+    "type": "department",
+    "provinceCode": "AR-W",
+    "provinceName": "Corrientes",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-M-098",
+    "name": "San Martín",
+    "type": "department",
+    "provinceCode": "AR-M",
+    "provinceName": "Mendoza",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-G-175",
+    "name": "San Martín",
+    "type": "department",
+    "provinceCode": "AR-G",
+    "provinceName": "Santiago del Estero",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-S-126",
+    "name": "San Martín",
+    "type": "department",
+    "provinceCode": "AR-S",
+    "provinceName": "Santa Fe",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-J-091",
+    "name": "San Martín",
+    "type": "department",
+    "provinceCode": "AR-J",
+    "provinceName": "San Juan",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-760",
+    "name": "San Miguel",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-W-154",
+    "name": "San Miguel",
+    "type": "department",
+    "provinceCode": "AR-W",
+    "provinceName": "Corrientes",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-763",
+    "name": "San Nicolás",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-770",
+    "name": "San Pedro",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-N-112",
+    "name": "San Pedro",
+    "type": "department",
+    "provinceCode": "AR-N",
+    "provinceName": "Misiones",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Y-063",
+    "name": "San Pedro",
+    "type": "department",
+    "provinceCode": "AR-Y",
+    "provinceName": "Jujuy",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-M-105",
+    "name": "San Rafael",
+    "type": "department",
+    "provinceCode": "AR-M",
+    "provinceName": "Mendoza",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-W-161",
+    "name": "San Roque",
+    "type": "department",
+    "provinceCode": "AR-W",
+    "provinceName": "Corrientes",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-E-088",
+    "name": "San Salvador",
+    "type": "department",
+    "provinceCode": "AR-E",
+    "provinceName": "Entre Ríos",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-778",
+    "name": "San Vicente",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-F-126",
+    "name": "Sanagasta",
+    "type": "department",
+    "provinceCode": "AR-F",
+    "provinceName": "La Rioja",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Y-070",
+    "name": "Santa Bárbara",
+    "type": "department",
+    "provinceCode": "AR-Y",
+    "provinceName": "Jujuy",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Y-077",
+    "name": "Santa Catalina",
+    "type": "department",
+    "provinceCode": "AR-Y",
+    "provinceName": "Jujuy",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-J-098",
+    "name": "Santa Lucía",
+    "type": "department",
+    "provinceCode": "AR-J",
+    "provinceName": "San Juan",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-X-147",
+    "name": "Santa María",
+    "type": "department",
+    "provinceCode": "AR-X",
+    "provinceName": "Córdoba",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-K-091",
+    "name": "Santa María",
+    "type": "department",
+    "provinceCode": "AR-K",
+    "provinceName": "Catamarca",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-M-112",
+    "name": "Santa Rosa",
+    "type": "department",
+    "provinceCode": "AR-M",
+    "provinceName": "Mendoza",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-K-098",
+    "name": "Santa Rosa",
+    "type": "department",
+    "provinceCode": "AR-K",
+    "provinceName": "Catamarca",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-A-161",
+    "name": "Santa Victoria",
+    "type": "department",
+    "provinceCode": "AR-A",
+    "provinceName": "Salta",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-W-168",
+    "name": "Santo Tomé",
+    "type": "department",
+    "provinceCode": "AR-W",
+    "provinceName": "Corrientes",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-H-154",
+    "name": "Sargento Cabral",
+    "type": "department",
+    "provinceCode": "AR-H",
+    "provinceName": "Chaco",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-G-182",
+    "name": "Sarmiento",
+    "type": "department",
+    "provinceCode": "AR-G",
+    "provinceName": "Santiago del Estero",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-U-091",
+    "name": "Sarmiento",
+    "type": "department",
+    "provinceCode": "AR-U",
+    "provinceName": "Chubut",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-J-105",
+    "name": "Sarmiento",
+    "type": "department",
+    "provinceCode": "AR-J",
+    "provinceName": "San Juan",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-W-175",
+    "name": "Sauce",
+    "type": "department",
+    "provinceCode": "AR-W",
+    "provinceName": "Corrientes",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-G-189",
+    "name": "Silípica",
+    "type": "department",
+    "provinceCode": "AR-G",
+    "provinceName": "Santiago del Estero",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-T-091",
+    "name": "Simoca",
+    "type": "department",
+    "provinceCode": "AR-T",
+    "provinceName": "Tucumán",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-X-154",
+    "name": "Sobremonte",
+    "type": "department",
+    "provinceCode": "AR-X",
+    "provinceName": "Córdoba",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-784",
+    "name": "Suipacha",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Y-084",
+    "name": "Susques",
+    "type": "department",
+    "provinceCode": "AR-Y",
+    "provinceName": "Jujuy",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-T-105",
+    "name": "Tafí Viejo",
+    "type": "department",
+    "provinceCode": "AR-T",
+    "provinceName": "Tucumán",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-T-098",
+    "name": "Tafí del Valle",
+    "type": "department",
+    "provinceCode": "AR-T",
+    "provinceName": "Tucumán",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-E-091",
+    "name": "Tala",
+    "type": "department",
+    "provinceCode": "AR-E",
+    "provinceName": "Entre Ríos",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-791",
+    "name": "Tandil",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-798",
+    "name": "Tapalqué",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-H-161",
+    "name": "Tapenagá",
+    "type": "department",
+    "provinceCode": "AR-H",
+    "provinceName": "Chaco",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-U-098",
+    "name": "Tehuelches",
+    "type": "department",
+    "provinceCode": "AR-U",
+    "provinceName": "Chubut",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-U-105",
+    "name": "Telsen",
+    "type": "department",
+    "provinceCode": "AR-U",
+    "provinceName": "Chubut",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-X-161",
+    "name": "Tercero Arriba",
+    "type": "department",
+    "provinceCode": "AR-X",
+    "provinceName": "Córdoba",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-805",
+    "name": "Tigre",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-Y-094",
+    "name": "Tilcara",
+    "type": "department",
+    "provinceCode": "AR-Y",
+    "provinceName": "Jujuy",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-K-105",
+    "name": "Tinogasta",
+    "type": "department",
+    "provinceCode": "AR-K",
+    "provinceName": "Catamarca",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-L-140",
+    "name": "Toay",
+    "type": "department",
+    "provinceCode": "AR-L",
+    "provinceName": "La Pampa",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-V-011",
+    "name": "Tolhuin",
+    "type": "department",
+    "provinceCode": "AR-V",
+    "provinceName": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-812",
+    "name": "Tordillo",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-819",
+    "name": "Tornquist",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-X-168",
+    "name": "Totoral",
+    "type": "department",
+    "provinceCode": "AR-X",
+    "provinceName": "Córdoba",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-T-112",
+    "name": "Trancas",
+    "type": "department",
+    "provinceCode": "AR-T",
+    "provinceName": "Tucumán",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-L-147",
+    "name": "Trenel",
+    "type": "department",
+    "provinceCode": "AR-L",
+    "provinceName": "La Pampa",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-826",
+    "name": "Trenque Lauquen",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-833",
+    "name": "Tres Arroyos",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-847",
+    "name": "Tres Lomas",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-840",
+    "name": "Tres de Febrero",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-X-175",
+    "name": "Tulumba",
+    "type": "department",
+    "provinceCode": "AR-X",
+    "provinceName": "Córdoba",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Y-098",
+    "name": "Tumbaya",
+    "type": "department",
+    "provinceCode": "AR-Y",
+    "provinceName": "Jujuy",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-M-119",
+    "name": "Tunuyán",
+    "type": "department",
+    "provinceCode": "AR-M",
+    "provinceName": "Mendoza",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-M-126",
+    "name": "Tupungato",
+    "type": "department",
+    "provinceCode": "AR-M",
+    "provinceName": "Mendoza",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-J-112",
+    "name": "Ullum",
+    "type": "department",
+    "provinceCode": "AR-J",
+    "provinceName": "San Juan",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-X-182",
+    "name": "Unión",
+    "type": "department",
+    "provinceCode": "AR-X",
+    "provinceName": "Córdoba",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-E-098",
+    "name": "Uruguay",
+    "type": "department",
+    "provinceCode": "AR-E",
+    "provinceName": "Entre Ríos",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-V-015",
+    "name": "Ushuaia",
+    "type": "department",
+    "provinceCode": "AR-V",
+    "provinceName": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-L-154",
+    "name": "Utracán",
+    "type": "department",
+    "provinceCode": "AR-L",
+    "provinceName": "La Pampa",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-R-084",
+    "name": "Valcheta",
+    "type": "department",
+    "provinceCode": "AR-R",
+    "provinceName": "Río Negro",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-J-119",
+    "name": "Valle Fértil",
+    "type": "department",
+    "provinceCode": "AR-J",
+    "provinceName": "San Juan",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Y-105",
+    "name": "Valle Grande",
+    "type": "department",
+    "provinceCode": "AR-Y",
+    "provinceName": "Jujuy",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-K-112",
+    "name": "Valle Viejo",
+    "type": "department",
+    "provinceCode": "AR-K",
+    "provinceName": "Catamarca",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-S-133",
+    "name": "Vera",
+    "type": "department",
+    "provinceCode": "AR-S",
+    "provinceName": "Santa Fe",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-861",
+    "name": "Vicente López",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-E-105",
+    "name": "Victoria",
+    "type": "department",
+    "provinceCode": "AR-E",
+    "provinceName": "Entre Ríos",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-S-028",
+    "name": "Villa Constitución",
+    "type": "department",
+    "provinceCode": "AR-S",
+    "provinceName": "Santa Fe",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-868",
+    "name": "Villa Gesell",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-E-113",
+    "name": "Villaguay",
+    "type": "department",
+    "provinceCode": "AR-E",
+    "provinceName": "Entre Ríos",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-875",
+    "name": "Villarino",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-F-098",
+    "name": "Vinchina",
+    "type": "department",
+    "provinceCode": "AR-F",
+    "provinceName": "La Rioja",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Y-112",
+    "name": "Yaví",
+    "type": "department",
+    "provinceCode": "AR-Y",
+    "provinceName": "Jujuy",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-T-119",
+    "name": "Yerba Buena",
+    "type": "department",
+    "provinceCode": "AR-T",
+    "provinceName": "Tucumán",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Q-112",
+    "name": "Zapala",
+    "type": "department",
+    "provinceCode": "AR-Q",
+    "provinceName": "Neuquén",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-J-133",
+    "name": "Zonda",
+    "type": "department",
+    "provinceCode": "AR-J",
+    "provinceName": "San Juan",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-B-882",
+    "name": "Zárate",
+    "type": "partido",
+    "provinceCode": "AR-B",
+    "provinceName": "Buenos Aires",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-R-056",
+    "name": "Ñorquinco",
+    "type": "department",
+    "provinceCode": "AR-R",
+    "provinceName": "Río Negro",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Q-084",
+    "name": "Ñorquín",
+    "type": "department",
+    "provinceCode": "AR-Q",
+    "provinceName": "Neuquén",
+    "isMetropolitanArea": false
+  }
+]

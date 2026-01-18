@@ -10,6 +10,7 @@
     "dev": "ts-node src/index.ts",
     "data:download": "ts-node src/scripts/download-data.ts",
     "seed": "ts-node src/scripts/seed-locations.ts",
+    "export": "ts-node src/scripts/export-json.ts",
     "test": "vitest run",
     "test:watch": "vitest",
     "typeorm": "typeorm-ts-node-commonjs",

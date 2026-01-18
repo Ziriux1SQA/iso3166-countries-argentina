@@ -1,0 +1,517 @@
+{
+  "description": "Área Metropolitana de Buenos Aires (AMBA)",
+  "count": 57,
+  "caba": {
+    "code": "AR-C",
+    "name": "Ciudad Autónoma de Buenos Aires",
+    "type": "autonomous_city",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  "partidos": [
+    {
+      "code": "AR-B-028",
+      "name": "Almirante Brown",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-035",
+      "name": "Avellaneda",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-056",
+      "name": "Bahía Blanca",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-091",
+      "name": "Berazategui",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-098",
+      "name": "Berisso",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-119",
+      "name": "Brandsen",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-126",
+      "name": "Campana",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-134",
+      "name": "Cañuelas",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-371",
+      "name": "Ciudad Libertador San Martín",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-C-007",
+      "name": "Comuna 1",
+      "type": "comuna",
+      "provinceCode": "AR-C",
+      "provinceName": "Ciudad Autónoma de Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-C-070",
+      "name": "Comuna 10",
+      "type": "comuna",
+      "provinceCode": "AR-C",
+      "provinceName": "Ciudad Autónoma de Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-C-077",
+      "name": "Comuna 11",
+      "type": "comuna",
+      "provinceCode": "AR-C",
+      "provinceName": "Ciudad Autónoma de Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-C-084",
+      "name": "Comuna 12",
+      "type": "comuna",
+      "provinceCode": "AR-C",
+      "provinceName": "Ciudad Autónoma de Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-C-091",
+      "name": "Comuna 13",
+      "type": "comuna",
+      "provinceCode": "AR-C",
+      "provinceName": "Ciudad Autónoma de Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-C-098",
+      "name": "Comuna 14",
+      "type": "comuna",
+      "provinceCode": "AR-C",
+      "provinceName": "Ciudad Autónoma de Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-C-105",
+      "name": "Comuna 15",
+      "type": "comuna",
+      "provinceCode": "AR-C",
+      "provinceName": "Ciudad Autónoma de Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-C-014",
+      "name": "Comuna 2",
+      "type": "comuna",
+      "provinceCode": "AR-C",
+      "provinceName": "Ciudad Autónoma de Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-C-021",
+      "name": "Comuna 3",
+      "type": "comuna",
+      "provinceCode": "AR-C",
+      "provinceName": "Ciudad Autónoma de Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-C-028",
+      "name": "Comuna 4",
+      "type": "comuna",
+      "provinceCode": "AR-C",
+      "provinceName": "Ciudad Autónoma de Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-C-035",
+      "name": "Comuna 5",
+      "type": "comuna",
+      "provinceCode": "AR-C",
+      "provinceName": "Ciudad Autónoma de Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-C-042",
+      "name": "Comuna 6",
+      "type": "comuna",
+      "provinceCode": "AR-C",
+      "provinceName": "Ciudad Autónoma de Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-C-049",
+      "name": "Comuna 7",
+      "type": "comuna",
+      "provinceCode": "AR-C",
+      "provinceName": "Ciudad Autónoma de Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-C-056",
+      "name": "Comuna 8",
+      "type": "comuna",
+      "provinceCode": "AR-C",
+      "provinceName": "Ciudad Autónoma de Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-C-063",
+      "name": "Comuna 9",
+      "type": "comuna",
+      "provinceCode": "AR-C",
+      "provinceName": "Ciudad Autónoma de Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-245",
+      "name": "Ensenada",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-252",
+      "name": "Escobar",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-260",
+      "name": "Esteban Echeverría",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-266",
+      "name": "Exaltación de la Cruz",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-274",
+      "name": "Florencio Varela",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-329",
+      "name": "General Las Heras",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-364",
+      "name": "General Rodríguez",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-408",
+      "name": "Hurlingham",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-410",
+      "name": "Ituzaingó",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-412",
+      "name": "José C. Paz",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-270",
+      "name": "José M. Ezeiza",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-427",
+      "name": "La Matanza",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-441",
+      "name": "La Plata",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-434",
+      "name": "Lanús",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-490",
+      "name": "Lomas de Zamora",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-497",
+      "name": "Luján",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-515",
+      "name": "Malvinas Argentinas",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-525",
+      "name": "Marcos Paz",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-539",
+      "name": "Merlo",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-560",
+      "name": "Moreno",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-568",
+      "name": "Morón",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-638",
+      "name": "Pilar",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-648",
+      "name": "Presidente Perón",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-658",
+      "name": "Quilmes",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-749",
+      "name": "San Fernando",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-756",
+      "name": "San Isidro",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-760",
+      "name": "San Miguel",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-778",
+      "name": "San Vicente",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-805",
+      "name": "Tigre",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-840",
+      "name": "Tres de Febrero",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-861",
+      "name": "Vicente López",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    },
+    {
+      "code": "AR-B-882",
+      "name": "Zárate",
+      "type": "partido",
+      "provinceCode": "AR-B",
+      "provinceName": "Buenos Aires",
+      "isMetropolitanArea": true,
+      "metropolitanAreaCode": "AMBA"
+    }
+  ]
+}

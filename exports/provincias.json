@@ -1,0 +1,147 @@
+[
+  {
+    "code": "AR-B",
+    "name": "Buenos Aires",
+    "type": "province",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-K",
+    "name": "Catamarca",
+    "type": "province",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-H",
+    "name": "Chaco",
+    "type": "province",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-U",
+    "name": "Chubut",
+    "type": "province",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-C",
+    "name": "Ciudad Autónoma de Buenos Aires",
+    "type": "autonomous_city",
+    "isMetropolitanArea": true,
+    "metropolitanAreaCode": "AMBA"
+  },
+  {
+    "code": "AR-W",
+    "name": "Corrientes",
+    "type": "province",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-X",
+    "name": "Córdoba",
+    "type": "province",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-E",
+    "name": "Entre Ríos",
+    "type": "province",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-P",
+    "name": "Formosa",
+    "type": "province",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Y",
+    "name": "Jujuy",
+    "type": "province",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-L",
+    "name": "La Pampa",
+    "type": "province",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-F",
+    "name": "La Rioja",
+    "type": "province",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-M",
+    "name": "Mendoza",
+    "type": "province",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-N",
+    "name": "Misiones",
+    "type": "province",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Q",
+    "name": "Neuquén",
+    "type": "province",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-R",
+    "name": "Río Negro",
+    "type": "province",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-A",
+    "name": "Salta",
+    "type": "province",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-J",
+    "name": "San Juan",
+    "type": "province",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-D",
+    "name": "San Luis",
+    "type": "province",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-Z",
+    "name": "Santa Cruz",
+    "type": "province",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-S",
+    "name": "Santa Fe",
+    "type": "province",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-G",
+    "name": "Santiago del Estero",
+    "type": "province",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-V",
+    "name": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+    "type": "province",
+    "isMetropolitanArea": false
+  },
+  {
+    "code": "AR-T",
+    "name": "Tucumán",
+    "type": "province",
+    "isMetropolitanArea": false
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "description": "Datos geográficos de Argentina - ISO 3166-2",
+  "source": "https://datos.gob.ar",
+  "generated": "2026-01-18T14:42:29.291Z",
+  "files": {
+    "provincias": {
+      "description": "24 provincias de Argentina con códigos ISO 3166-2",
+      "count": 24,
+      "url": "https://raw.githubusercontent.com/MacroxW/iso3166-countries-argentina/main/exports/provincias.json"
+    },
+    "departamentos": {
+      "description": "Departamentos, partidos y comunas",
+      "count": 529,
+      "url": "https://raw.githubusercontent.com/MacroxW/iso3166-countries-argentina/main/exports/departamentos.json"
+    },
+    "localidades": {
+      "description": "Localidades con coordenadas lat/lon",
+      "count": 4141,
+      "url": "https://raw.githubusercontent.com/MacroxW/iso3166-countries-argentina/main/exports/localidades.json"
+    },
+    "amba": {
+      "description": "Partidos del Área Metropolitana de Buenos Aires",
+      "count": 57,
+      "url": "https://raw.githubusercontent.com/MacroxW/iso3166-countries-argentina/main/exports/amba.json"
+    },
+    "barriosCaba": {
+      "description": "Barrios de la Ciudad de Buenos Aires",
+      "count": 48,
+      "url": "https://raw.githubusercontent.com/MacroxW/iso3166-countries-argentina/main/exports/barrios-caba.json"
+    }
+  }
+}
